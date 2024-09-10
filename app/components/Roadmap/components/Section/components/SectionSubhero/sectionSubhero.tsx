@@ -5,7 +5,7 @@ export const SectionSubhero = (): JSX.Element => {
   return (
     <StyledSection>
       <StyledSectionLayout>
-        <StaticImage alt="Roadmap" src="/roadmap/roadmap.png" />
+        <StaticImage alt="Roadmap" src="/roadmap/roadmap.svg" />
         <figcaption>
           The Data integration component will include utilization of existing
           API as well as design of new approaches for access of external data.
