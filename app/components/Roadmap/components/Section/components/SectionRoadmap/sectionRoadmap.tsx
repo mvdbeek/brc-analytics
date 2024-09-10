@@ -23,7 +23,7 @@ export const SectionRoadmap = (): JSX.Element => {
         <SectionContent>
           <Category>
             <CategoryTitle>Develop data component</CategoryTitle>
-            <CategorySubTitle>Daset harmonization and ingest</CategorySubTitle>
+            <CategorySubTitle>Data harmonization and ingest</CategorySubTitle>
             <CategoryText>
               The list of all 785 genomes originally found in VeuPathDb will be
               harmonized. This means that for each genome, we will identify the
