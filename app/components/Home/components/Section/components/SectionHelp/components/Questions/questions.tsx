@@ -18,11 +18,11 @@ export const Questions = (): JSX.Element => {
         </MAccordionSummary>
         <MAccordionDetails>
           BRC-Analytics is very new. Out plan is (1) establish access to
-          official versions of VeuPathDb’s 785 genomes; (2) develop analytical
+          official versions of VEuPathDB’s 785 genomes; (2) develop analytical
           workflows for common analyses such as transcriptomics, variation,
           assembly, and tightly integrate them with the data; (3) ingest and
           provide access to custom annotations that were previously available
-          from VeuPathDb. To learn more click “Roadmap” on top.
+          from VEuPathDB. To learn more click “Roadmap” on top.
         </MAccordionDetails>
       </StyledAccordion>
       <StyledAccordion component={DXRoundedPaper}>
@@ -32,7 +32,7 @@ export const Questions = (): JSX.Element => {
         <MAccordionDetails>
           I used to be able to access many types of data including genomes and
           associated annotations. Where do I find it now? Data for the majority
-          of VeuPathDb organisms is available by clicking the “Datasets” link at
+          of VEuPathDB organisms is available by clicking the “Datasets” link at
           the top.
         </MAccordionDetails>
       </StyledAccordion>
@@ -41,7 +41,7 @@ export const Questions = (): JSX.Element => {
           How do I do analyses?
         </MAccordionSummary>
         <MAccordionDetails>
-          I used to rely on VeuPathDb to perform my analyses. Now that it is no
+          I used to rely on VEuPathDB to perform my analyses. Now that it is no
           longer available, what can I do? Many types of analyses are possible
           via integration with the{" "}
           <DXLink label="Galaxy system" url={URLS.GALAXY_SYSTEM} /> while we

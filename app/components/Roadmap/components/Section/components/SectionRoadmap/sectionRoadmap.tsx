@@ -25,7 +25,7 @@ export const SectionRoadmap = (): JSX.Element => {
             <CategoryTitle>Develop data component</CategoryTitle>
             <CategorySubTitle>Data harmonization and ingest</CategorySubTitle>
             <CategoryText>
-              The list of all 785 genomes originally found in VeuPathDb will be
+              The list of all 785 genomes originally found in VEuPathDB will be
               harmonized. This means that for each genome, we will identify the
               latest official release listed at NCBI. The data will then be
               ingested by the UCSC Genome Browser team to create a browser
@@ -40,7 +40,7 @@ export const SectionRoadmap = (): JSX.Element => {
             <CategoryText>
               A search component allowing users to perform custom queries on all
               data will be developed. It will allow functionality that was
-              previously provided by VeuPathDb’s “search strategy” component.{" "}
+              previously provided by VEuPathDB’s “search strategy” component.{" "}
             </CategoryText>
           </Category>
           <Category>

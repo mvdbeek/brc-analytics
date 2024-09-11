@@ -29,7 +29,7 @@ export const SectionHero = (): JSX.Element => {
                 BRC Analytics is under active development. This site will
                 provide data access and analytical tools for all 785 eukaryotic
                 pathogens, host taxa, and vectors previously served by
-                VeuPathDb. However, we cannot do this alone.
+                VEuPathDB. However, we cannot do this alone.
               </span>
               <span>
                 Use the button below to tell us about your usage patterns and
