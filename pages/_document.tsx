@@ -13,6 +13,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap"
             rel="stylesheet"
           />
+          <script
+            data-domain="brc-analytics.org"
+            defer
+            src="https://plausible.galaxyproject.eu/js/script.js"
+          />
         </Head>
         <body>
           <Main />
