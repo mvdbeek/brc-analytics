@@ -5,7 +5,6 @@ import {
 import { Button, Tooltip } from "@mui/material";
 import Router from "next/router";
 import { ROUTES } from "../../../../../../../routes/constants";
-import { BRCDataCatalogGenome } from "../../../../../../apis/catalog/brc-analytics-catalog/common/entities";
 import { AnalyzeGenomeIcon } from "../../../../../common/CustomIcon/components/AnalyzeGenomeIcon/analyzeGenomeIcon";
 import { ViewGenomeIcon } from "../../../../../common/CustomIcon/components/ViewGenomeIcon/viewGenomeIcon";
 import { StyledButtonGroup } from "./analyzeGenome.styles";
@@ -16,14 +15,19 @@ import {
 } from "./common/constants";
 
 export interface AnalyzeGenomeProps {
-  genome: BRCDataCatalogGenome;
+  genomeVersionAssemblyId: string;
+  rowId?: string;
+  ucscBrowserUrl: string;
 }
 
-export const AnalyzeGenome = ({ genome }: AnalyzeGenomeProps): JSX.Element => {
-  const { genomeVersionAssemblyId, ucscBrowserUrl } = genome;
-
-  const onAnalyze = (entityId: string): void => {
-    Router.push(`${ROUTES.ORGANISMS}/${entityId}`);
+export const AnalyzeGenome = ({
+  genomeVersionAssemblyId,
+  rowId,
+  ucscBrowserUrl,
+}: AnalyzeGenomeProps): JSX.Element => {
+  const onAnalyze = (rowId?: string): void => {
+    if (!rowId) return;
+    Router.push(`${ROUTES.ORGANISMS}/${rowId}`);
   };
 
   const onView = (url: string | null): void => {
@@ -38,8 +42,8 @@ export const AnalyzeGenome = ({ genome }: AnalyzeGenomeProps): JSX.Element => {
         <Tooltip key="analyze" title="Analyze">
           <Button
             {...BUTTON_PROPS}
-            disabled={!genomeVersionAssemblyId}
-            onClick={(): void => onAnalyze(genomeVersionAssemblyId)}
+            disabled={!rowId}
+            onClick={(): void => onAnalyze(rowId)}
           >
             <AnalyzeGenomeIcon {...ICON_PROPS} />
           </Button>

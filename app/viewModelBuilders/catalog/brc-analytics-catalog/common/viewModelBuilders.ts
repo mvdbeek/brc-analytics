@@ -4,6 +4,7 @@ import {
   Key,
   Value,
 } from "@databiosphere/findable-ui/lib/components/common/KeyValuePairs/keyValuePairs";
+import { ViewContext } from "@databiosphere/findable-ui/lib/config/entities";
 import { ComponentProps } from "react";
 import { ROUTES } from "../../../../../routes/constants";
 import { BRCDataCatalogGenome } from "../../../../apis/catalog/brc-analytics-catalog/common/entities";
@@ -13,13 +14,19 @@ import { GENOME_BROWSER } from "./constants";
 /**
  * Build props for the genome analysis cell.
  * @param genome - Genome entity.
+ * @param viewContext - View context.
  * @returns Props to be used for the AnalyzeGenome component.
  */
 export const buildAnalyzeGenome = (
-  genome: BRCDataCatalogGenome
+  genome: BRCDataCatalogGenome,
+  viewContext: ViewContext<BRCDataCatalogGenome>
 ): ComponentProps<typeof C.AnalyzeGenome> => {
+  const { cellContext } = viewContext;
+  const { row } = cellContext || {};
   return {
-    genome,
+    genomeVersionAssemblyId: genome.genomeVersionAssemblyId,
+    rowId: row?.id,
+    ucscBrowserUrl: genome.ucscBrowserUrl,
   };
 };
 
