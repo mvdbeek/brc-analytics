@@ -1,3 +1,4 @@
+import { mediaTabletUp } from "@databiosphere/findable-ui/lib/styles/common/mixins/breakpoints";
 import { inkLight } from "@databiosphere/findable-ui/lib/styles/common/mixins/colors";
 import {
   textBodyLarge4002Lines,
@@ -12,6 +13,11 @@ export const Grid = styled.div`
   ${sectionGrid};
   grid-column: 1 / -1;
   grid-template-columns: 1fr;
+
+  ${mediaTabletUp} {
+    grid-column: 6 / -1;
+    grid-template-columns: repeat(7, 1fr);
+  }
 `;
 
 export const StyledAccordion = styled(MAccordion)`
