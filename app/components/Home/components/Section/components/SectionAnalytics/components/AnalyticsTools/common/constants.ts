@@ -8,7 +8,7 @@ const CARD_TEXT = {
   ABOUT_GALAXY:
     "A platform for the analysis of data at any scale using public infrastructure",
   ABOUT_NCBI: "A singular source for standardized genomic and functional data",
-  ABOUT_TACC: "A world's leading academic computing center",
+  ABOUT_TACC: "One of the world’s leading academic computing centers",
   ABOUT_UCSC:
     "A global platform for visualization and interpretation of genomic data",
 };
