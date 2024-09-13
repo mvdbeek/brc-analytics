@@ -9,15 +9,16 @@ import * as P from "./common/palette";
  * @returns theme with custom theme overrides.
  */
 export function mergeAppTheme(theme: Theme): Theme {
-  return createTheme(
-    deepmerge(theme, {
-      components: {
-        MuiButton: C.MuiButton(theme),
-        MuiCssBaseline: C.MuiCssBaseline(theme),
-      },
-      palette: {
-        hero: P.hero,
-      },
-    })
-  );
+  const appTheme = { ...theme };
+
+  // Merge palette with hero color.
+  appTheme.palette = { ...appTheme.palette, hero: P.hero };
+
+  // Marge custom components.
+  const components = {
+    MuiButton: C.MuiButton(appTheme),
+    MuiCssBaseline: C.MuiCssBaseline(appTheme),
+  };
+
+  return createTheme(deepmerge(appTheme, components));
 }
