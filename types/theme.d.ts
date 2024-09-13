@@ -1,13 +1,5 @@
-import { Theme as MTheme } from "@mui/material";
-
-/**
- * Button prop options.
- */
-declare module "@mui/material/Button" {
-  interface ButtonPropsColorOverrides {
-    hero: true;
-  }
-}
+import type {} from "@mui/material/Button";
+import { PaletteColorOptions } from "@mui/material/styles";
 
 /**
  * Palette definitions.
@@ -19,6 +11,15 @@ declare module "@mui/material/styles/createPalette" {
 
   interface PaletteOptions {
     hero?: PaletteColorOptions;
+  }
+}
+
+/**
+ * Button prop options.
+ */
+declare module "@mui/material/Button" {
+  interface ButtonPropsColorOverrides {
+    hero: true;
   }
 }
 
