@@ -3,11 +3,13 @@ import { SectionAnalytics } from "../../components/Home/components/Section/compo
 import { SectionBranding } from "../../components/Home/components/Section/components/SectionBranding/sectionBranding";
 import { SectionHelp } from "../../components/Home/components/Section/components/SectionHelp/sectionHelp";
 import { SectionHero } from "../../components/Home/components/Section/components/SectionHero/sectionHero";
+import { SectionSubHero } from "../../components/Home/components/Section/components/SectionSubHero/sectionSubHero";
 
 export const HomeView = (): JSX.Element => {
   return (
     <Fragment>
       <SectionHero />
+      <SectionSubHero />
       <SectionHelp />
       <SectionAnalytics />
       <SectionBranding />
