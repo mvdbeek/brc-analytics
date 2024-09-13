@@ -10,8 +10,8 @@ export const HomeView = (): JSX.Element => {
     <Fragment>
       <SectionHero />
       <SectionSubHero />
-      <SectionHelp />
       <SectionAnalytics />
+      <SectionHelp />
       <SectionBranding />
     </Fragment>
   );
