@@ -16,8 +16,7 @@ export const SectionHero = (): JSX.Element => {
       <SectionLayout>
         <Headline>
           <Head>
-            <span>A universal platform for </span>
-            <span>access and analysis </span>
+            <span>Analytics for</span>
             <span>of pathogen, host, </span>
             <span>and vector data</span>
           </Head>
