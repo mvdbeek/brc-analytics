@@ -17,7 +17,7 @@ export const SectionHero = (): JSX.Element => {
         <Headline>
           <Head>
             <span>Analytics for</span>
-            <span>of pathogen, host, </span>
+            <span>pathogen, host, </span>
             <span>and vector data</span>
           </Head>
         </Headline>
