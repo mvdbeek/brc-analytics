@@ -7,10 +7,12 @@ export const SectionAnalytics = (): JSX.Element => {
     <Section>
       <SectionLayout>
         <Headline>
-          <SectionTitle>How does brc-analytics work?</SectionTitle>
+          <SectionTitle>What is BRC-Analytics?</SectionTitle>
           <SectionSubtitle>
-            The new BRC will be built on a proven data analytics platform called
-            Galaxy.
+            BRC-Analytics consists of three components spread over four
+            resources: public computational infrastructure (TACC), authoritative
+            data repositories and browsers (NCBI and UCSC) and an analytical
+            platform (Galaxy).
           </SectionSubtitle>
         </Headline>
         <AnalyticsTools />

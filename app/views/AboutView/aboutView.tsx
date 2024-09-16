@@ -10,11 +10,10 @@ export const AboutView = (): JSX.Element => {
     <Fragment>
       <SectionHero
         breadcrumbs={BREADCRUMBS}
-        head="Discover Our Story"
+        head="About BRC-Analytics"
         subHead={
           <span>
-            BRC-analytics is a collaborative effort of four mature projects that
-            have been sustained for decades and are thus “battle-tested”. These
+            BRC-analytics is a collaborative effort of four projects. These
             include: <Link label="Galaxy" url="https://galaxyproject.org" />{" "}
             (est. 2005), <Link label="HyPhy" url="https://hyphy.org" /> (est.
             2000),{" "}
