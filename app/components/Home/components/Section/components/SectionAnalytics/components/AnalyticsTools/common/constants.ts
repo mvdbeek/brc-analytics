@@ -5,8 +5,12 @@ const CARD_ACTION_LABEL = {
   LEARN_MORE: "Learn More",
 };
 const CARD_TEXT = {
-  RUN_BATCH_ANALYSIS_WORKFLOWS:
-    "Run batch analysis workflows and interactive visualizations.",
+  ABOUT_GALAXY:
+    "A platform for the analysis of data at any scale using public infrastructure",
+  ABOUT_NCBI: "A singular source for standardized genomic and functional data",
+  ABOUT_TACC: "One of the world’s leading academic computing centers",
+  ABOUT_UCSC:
+    "A global platform for visualization and interpretation of genomic data",
 };
 
 export const ANALYTICS_TOOLS: DXCardProps[] = [
@@ -22,7 +26,7 @@ export const ANALYTICS_TOOLS: DXCardProps[] = [
       height: 40,
       src: "/portals/galaxy.png",
     },
-    text: CARD_TEXT.RUN_BATCH_ANALYSIS_WORKFLOWS,
+    text: CARD_TEXT.ABOUT_GALAXY,
     title: "Galaxy",
   },
   {
@@ -37,7 +41,7 @@ export const ANALYTICS_TOOLS: DXCardProps[] = [
       height: 40,
       src: "/portals/ncbi.png",
     },
-    text: CARD_TEXT.RUN_BATCH_ANALYSIS_WORKFLOWS,
+    text: CARD_TEXT.ABOUT_NCBI,
     title: "NCBI Datasets",
   },
   {
@@ -52,7 +56,7 @@ export const ANALYTICS_TOOLS: DXCardProps[] = [
       height: 40,
       src: "/portals/ucsc.png",
     },
-    text: CARD_TEXT.RUN_BATCH_ANALYSIS_WORKFLOWS,
+    text: CARD_TEXT.ABOUT_UCSC,
     title: "UCSC Genome Browser",
   },
   {
@@ -67,7 +71,7 @@ export const ANALYTICS_TOOLS: DXCardProps[] = [
       height: 40,
       src: "/portals/tacc.png",
     },
-    text: CARD_TEXT.RUN_BATCH_ANALYSIS_WORKFLOWS,
+    text: CARD_TEXT.ABOUT_TACC,
     title: "TACC",
   },
 ];
