@@ -2,10 +2,13 @@
 .next
 
 # dependencies
+package.json
+package-lock.json
 node_modules
 
 # build
 out
+coverage
 
 # python
 venv
