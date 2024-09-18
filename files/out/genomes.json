@@ -132,6 +132,17 @@
     "vEuPathDbProject": "TriTrypDB"
   },
   {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000002765.3",
+    "organism": "Plasmodium falciparum 3D7",
+    "species": "Plasmodium falciparum",
+    "strain": "3D7",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002765.5",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
     "chromosomes": 36,
     "contigs": 103,
     "genomeVersionAssemblyId": "GCA_000002845.2",
@@ -1531,12 +1542,45 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000256705.2",
+    "organism": "Toxoplasma gondii CAST",
+    "species": "Toxoplasma gondii",
+    "strain": "CAST",
+    "supercontigs": 2656,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000256705.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000256725.2",
+    "organism": "Toxoplasma gondii TgCatPRC2",
+    "species": "Toxoplasma gondii",
+    "strain": "TgCatPRC2",
+    "supercontigs": 3060,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000256725.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000258005.2",
     "organism": "Hammondia hammondi strain H.H.34",
     "species": "Hammondia hammondi",
     "strain": "strain H.H.34",
     "supercontigs": 14860,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000258005.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 6995,
+    "genomeVersionAssemblyId": "GCA_000259835.1",
+    "organism": "Toxoplasma gondii TgCATBr5",
+    "species": "Toxoplasma gondii",
+    "strain": "TgCATBr5",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000259835.1",
     "vEuPathDbProject": "ToxoDB"
   },
   {
@@ -1626,6 +1670,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000277815.2",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 6177,
+    "genomeVersionAssemblyId": "GCA_000278365.1",
+    "organism": "Toxoplasma gondii CtCo5",
+    "species": "Toxoplasma gondii",
+    "strain": "CtCo5",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000278365.1",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 13,
@@ -1750,6 +1805,17 @@
   },
   {
     "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000325525.2",
+    "organism": "Toxoplasma gondii GAB2-2007-GAL-DOM2",
+    "species": "Toxoplasma gondii",
+    "strain": "GAB2-2007-GAL-DOM2",
+    "supercontigs": 2481,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000325525.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
     "contigs": 15007,
     "genomeVersionAssemblyId": "GCA_000327425.1",
     "organism": "Trypanosoma cruzi strain Esmeraldo",
@@ -1835,6 +1901,17 @@
     "supercontigs": 328,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000333975.2",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 4075,
+    "genomeVersionAssemblyId": "GCA_000338675.2",
+    "organism": "Toxoplasma gondii COUG",
+    "species": "Toxoplasma gondii",
+    "strain": "COUG",
+    "supercontigs": 105,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000338675.2",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
@@ -2378,12 +2455,45 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000499445.1",
+    "organism": "Eimeria praecox Houghton",
+    "species": "Eimeria praecox",
+    "strain": "Houghton",
+    "supercontigs": 21348,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000499445.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000499545.1",
+    "organism": "Eimeria tenella strain Houghton",
+    "species": "Eimeria tenella",
+    "strain": "strain Houghton",
+    "supercontigs": 4664,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000499545.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000499605.1",
     "organism": "Eimeria maxima Weybridge",
     "species": "Eimeria maxima",
     "strain": "Weybridge",
     "supercontigs": 3564,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000499605.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000499725.1",
+    "organism": "Eimeria brunetti Houghton",
+    "species": "Eimeria brunetti",
+    "strain": "Houghton",
+    "supercontigs": 8575,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000499725.1",
     "vEuPathDbProject": "ToxoDB"
   },
   {
@@ -2439,6 +2549,17 @@
     "strain": "San Antonio 1",
     "supercontigs": 323,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000524495.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000524515.1",
+    "organism": "Plasmodium vinckei petteri strain CR",
+    "species": "Plasmodium vinckei",
+    "strain": "petteri strain CR",
+    "supercontigs": 66,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000524515.1",
     "vEuPathDbProject": "PlasmoDB"
   },
   {
@@ -2574,6 +2695,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 5,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000723445.1",
+    "organism": "Babesia bigemina strain BOND",
+    "species": "Babesia bigemina",
+    "strain": "strain BOND",
+    "supercontigs": 478,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000723445.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000723665.1",
@@ -2594,6 +2726,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000723685.1",
     "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 701,
+    "genomeVersionAssemblyId": "GCA_000727475.1",
+    "organism": "Sarcocystis neurona SN3",
+    "species": "Sarcocystis neurona",
+    "strain": "SN3",
+    "supercontigs": 171,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000727475.1",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
@@ -2696,6 +2839,17 @@
   },
   {
     "chromosomes": 0,
+    "contigs": 78,
+    "genomeVersionAssemblyId": "GCA_000804495.1",
+    "organism": "Cryptosporidium hominis 37999",
+    "species": "Cryptosporidium hominis",
+    "strain": "37999",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000804495.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000814975.1",
     "organism": "Metarhizium anisopliae ARSEF 549",
@@ -2737,6 +2891,17 @@
     "supercontigs": 18859,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000828355.1",
     "vEuPathDbProject": "VectorBase"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 853,
+    "genomeVersionAssemblyId": "GCA_000831705.1",
+    "organism": "Cryptosporidium sp. chipmunk LX-2015",
+    "species": "Cryptosporidium sp.",
+    "strain": "chipmunk LX-2015",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000831705.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 0,
@@ -2862,6 +3027,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000875885.1",
+    "organism": "Sarcocystis neurona SO SN1",
+    "species": "Sarcocystis neurona",
+    "strain": "SO SN1",
+    "supercontigs": 3066,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000875885.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000935105.1",
     "organism": "Cryptococcus gattii NT-10",
     "species": "Cryptococcus gattii VGI",
@@ -2959,6 +3135,17 @@
     "vEuPathDbProject": "VectorBase"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001077455.2",
+    "organism": "Babesia divergens strain Rouen 1987",
+    "species": "Babesia divergens",
+    "strain": "strain Rouen 1987",
+    "supercontigs": 141,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001077455.2",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
     "chromosomes": 15,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_001078035.1",
@@ -2968,6 +3155,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001078035.1",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001179505.1",
+    "organism": "Vitrella brassicaformis CCMP3155",
+    "species": "Vitrella brassicaformis",
+    "strain": "CCMP3155",
+    "supercontigs": 1064,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001179505.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 0,
@@ -3158,6 +3356,17 @@
   },
   {
     "chromosomes": 0,
+    "contigs": 53,
+    "genomeVersionAssemblyId": "GCA_001483515.1",
+    "organism": "Cryptosporidium hominis isolate 30976",
+    "species": "Cryptosporidium hominis",
+    "strain": "isolate 30976",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001483515.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
     "contigs": 11196,
     "genomeVersionAssemblyId": "GCA_001593125.1",
     "organism": "Rhizophagus irregularis A1 (DAOM-664342)",
@@ -3166,6 +3375,61 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001593125.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 441,
+    "genomeVersionAssemblyId": "GCA_001593265.1",
+    "organism": "Toxoplasma gondii RH 2016",
+    "species": "Toxoplasma gondii",
+    "strain": "RH 2016",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001593265.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 57,
+    "genomeVersionAssemblyId": "GCA_001593445.1",
+    "organism": "Cryptosporidium meleagridis strain UKMEL1",
+    "species": "Cryptosporidium meleagridis",
+    "strain": "strain UKMEL1",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001593445.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 153,
+    "genomeVersionAssemblyId": "GCA_001593455.1",
+    "organism": "Cryptosporidium baileyi TAMU-09Q1",
+    "species": "Cryptosporidium baileyi",
+    "strain": "TAMU-09Q1",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001593455.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 119,
+    "genomeVersionAssemblyId": "GCA_001593465.1",
+    "organism": "Cryptosporidium hominis isolate TU502_2012",
+    "species": "Cryptosporidium hominis",
+    "strain": "isolate TU502_2012",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001593465.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 156,
+    "genomeVersionAssemblyId": "GCA_001593475.1",
+    "organism": "Cryptosporidium hominis UKH1",
+    "species": "Cryptosporidium hominis",
+    "strain": "UKH1",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001593475.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 0,
@@ -3209,6 +3473,17 @@
     "strain": "strain SY75",
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_001602025.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001625125.1",
+    "organism": "Haemoproteus tartakovskyi strain SISKIN1",
+    "species": "Haemoproteus tartakovskyi",
+    "strain": "strain SISKIN1",
+    "supercontigs": 2982,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001625125.1",
     "vEuPathDbProject": "PlasmoDB"
   },
   {
@@ -3276,6 +3551,39 @@
     "supercontigs": 186,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001642415.1",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 234,
+    "genomeVersionAssemblyId": "GCA_001650055.1",
+    "organism": "Babesia microti strain ATCC 30222",
+    "species": "Babesia microti",
+    "strain": "strain ATCC 30222",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001650055.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 250,
+    "genomeVersionAssemblyId": "GCA_001650075.1",
+    "organism": "Babesia microti strain GreenwichYale_Lab_strain_1",
+    "species": "Babesia microti",
+    "strain": "strain GreenwichYale_Lab_strain_1",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001650075.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 140,
+    "genomeVersionAssemblyId": "GCA_001650105.1",
+    "organism": "Babesia microti strain GI",
+    "species": "Babesia microti",
+    "strain": "strain GI",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001650105.1",
+    "vEuPathDbProject": "PiroplasmaDB"
   },
   {
     "chromosomes": 0,
@@ -3674,6 +3982,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_002140095.1",
+    "organism": "Plasmodium knowlesi strain Malayan Strain Pk1 A",
+    "species": "Plasmodium knowlesi",
+    "strain": "strain Malayan Strain Pk1 A",
+    "supercontigs": 28,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002140095.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
     "chromosomes": 3,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_002204515.1",
@@ -3718,6 +4037,17 @@
     "vEuPathDbProject": "TriTrypDB"
   },
   {
+    "chromosomes": 8,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_002223825.1",
+    "organism": "Cryptosporidium hominis UdeA01",
+    "species": "Cryptosporidium hominis",
+    "strain": "UdeA01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002223825.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_002237265.2",
@@ -3727,6 +4057,17 @@
     "supercontigs": 647,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_002237265.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 751,
+    "genomeVersionAssemblyId": "GCA_002271815.1",
+    "organism": "Eimeria falciformis Bayer Haberkorn 1970",
+    "species": "Eimeria falciformis",
+    "strain": "Bayer Haberkorn 1970",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002271815.1",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
@@ -3759,6 +4100,17 @@
     "strain": "strain Bb-Ger1",
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_002563875.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 14627,
+    "genomeVersionAssemblyId": "GCA_002600585.1",
+    "organism": "Cystoisospora suis strain Wien I",
+    "species": "Cystoisospora suis",
+    "strain": "strain Wien I",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_002600585.1",
     "vEuPathDbProject": "ToxoDB"
   },
   {
@@ -4182,6 +4534,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_003402215.1",
+    "organism": "Plasmodium vivax PvSY56",
+    "species": "Plasmodium vivax",
+    "strain": "PvSY56",
+    "supercontigs": 14,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_003402215.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_003594385.1",
     "organism": "Trypanosoma cruzi strain S11",
     "species": "Trypanosoma cruzi",
@@ -4523,6 +4886,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_004936735.2",
+    "organism": "Cryptosporidium sp. chipmunk genotype I strain 37763",
+    "species": "Cryptosporidium sp. chipmunk genotype I",
+    "strain": "strain 37763",
+    "supercontigs": 50,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_004936735.2",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_006496715.1",
     "organism": "Aedes albopictus Foshan FPA",
     "species": "Aedes albopictus",
@@ -4541,6 +4915,17 @@
     "supercontigs": 786,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_006535955.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 8,
+    "contigs": 3,
+    "genomeVersionAssemblyId": "GCA_007210665.1",
+    "organism": "Cryptosporidium tyzzeri isolate UGA55",
+    "species": "Cryptosporidium tyzzeri",
+    "strain": "isolate UGA55",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_007210665.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 17,
@@ -4666,6 +5051,50 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_009761425.1",
+    "organism": "Plasmodium falciparum NF135.C10",
+    "species": "Plasmodium falciparum",
+    "strain": "NF135.C10",
+    "supercontigs": 21,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_009761425.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_009761475.1",
+    "organism": "Plasmodium falciparum NF54",
+    "species": "Plasmodium falciparum",
+    "strain": "NF54",
+    "supercontigs": 28,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_009761475.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_009761515.1",
+    "organism": "Plasmodium falciparum NF166",
+    "species": "Plasmodium falciparum",
+    "strain": "NF166",
+    "supercontigs": 30,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_009761515.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_009761555.1",
+    "organism": "Plasmodium falciparum 7G8 2019",
+    "species": "Plasmodium falciparum",
+    "strain": "7G8 2019",
+    "supercontigs": 20,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_009761555.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_009768925.2",
     "organism": "Cryptosporidium bovis isolate 45015",
     "species": "Cryptosporidium bovis",
@@ -4717,6 +5146,17 @@
     "supercontigs": 14951,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_011037195.1",
     "vEuPathDbProject": "VectorBase"
+  },
+  {
+    "chromosomes": 13,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_013099955.1",
+    "organism": "Toxoplasma gondii RH-88",
+    "species": "Toxoplasma gondii",
+    "strain": "RH-88",
+    "supercontigs": 183,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013099955.1",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 7,
@@ -4862,6 +5302,17 @@
     "vEuPathDbProject": "MicrosporidiaDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_014898695.1",
+    "organism": "Toxoplasma gondii strain ME49xCTG F1 S27",
+    "species": "Toxoplasma gondii",
+    "strain": "strain ME49xCTG F1 S27",
+    "supercontigs": 48,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_014898695.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
     "chromosomes": 43,
     "contigs": 359,
     "genomeVersionAssemblyId": "GCA_015033625.1",
@@ -4915,6 +5366,17 @@
     "supercontigs": 1754,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_015832245.1",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 13,
+    "contigs": 31,
+    "genomeVersionAssemblyId": "GCA_016097395.1",
+    "organism": "Neospora caninum Liverpool 2019",
+    "species": "Neospora caninum",
+    "strain": "Liverpool 2019",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_016097395.1",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
@@ -5084,6 +5546,17 @@
   {
     "chromosomes": 36,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_017916325.1",
+    "organism": "Leishmania martiniquensis MHOM/TH/2012/LSCM1",
+    "species": "Leishmania martiniquensis",
+    "strain": "MHOM/TH/2012/LSCM1",
+    "supercontigs": 6,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_017916325.1",
+    "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 36,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_017916335.1",
     "organism": "Leishmania orientalis MHOM/TH/2014/LSCM4",
     "species": "Leishmania orientalis",
@@ -5148,6 +5621,28 @@
     "vEuPathDbProject": "MicrosporidiaDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_018398725.1",
+    "organism": "Babesia divergens strain 1802A",
+    "species": "Babesia divergens",
+    "strain": "strain 1802A",
+    "supercontigs": 79,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_018398725.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_018398765.1",
+    "organism": "Chromera velia CCMP2878",
+    "species": "Chromera velia",
+    "strain": "CCMP2878",
+    "supercontigs": 5963,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_018398765.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
     "chromosomes": 11,
     "contigs": 685,
     "genomeVersionAssemblyId": "GCA_019096175.1",
@@ -5157,6 +5652,39 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_019096175.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 8,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_019844115.2",
+    "organism": "Cryptosporidium parvum 2022",
+    "species": "Cryptosporidium parvum",
+    "strain": "2022",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_019844115.2",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_019968955.1",
+    "organism": "Porospora cf. gigantea A",
+    "species": "Porospora gigantea",
+    "strain": "A",
+    "supercontigs": 787,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_019968955.1",
+    "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020283715.1",
+    "organism": "Cytauxzoon felis strain Winnie",
+    "species": "Cytauxzoon felis",
+    "strain": "strain Winnie",
+    "supercontigs": 358,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020283715.1",
+    "vEuPathDbProject": "PiroplasmaDB"
   },
   {
     "chromosomes": 13,
@@ -5203,6 +5731,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020844765.3",
+    "organism": "Plasmodium yoelii yoelii 17XNL 2023",
+    "species": "Plasmodium yoelii",
+    "strain": "yoelii 17XNL 2023",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020844765.3",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_021653875.1",
@@ -5234,6 +5773,17 @@
     "supercontigs": 22,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_021821965.1",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_022059095.1",
+    "organism": "Trypanosoma melophagium St. Kilda",
+    "species": "Trypanosoma melophagium",
+    "strain": "St. Kilda",
+    "supercontigs": 64,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_022059095.1",
+    "vEuPathDbProject": "TriTrypDB"
   },
   {
     "chromosomes": 0,
@@ -5324,6 +5874,28 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_024586265.1",
+    "organism": "Babesia duncani strain WA1",
+    "species": "Babesia duncani",
+    "strain": "strain WA1",
+    "supercontigs": 7,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_024586265.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_024862765.1",
+    "organism": "Babesia caballi USDA-D6B2",
+    "species": "Babesia caballi",
+    "strain": "USDA-D6B2",
+    "supercontigs": 7,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_024862765.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
     "chromosomes": 34,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_025688915.1",
@@ -5357,6 +5929,17 @@
     "vEuPathDbProject": "TriTrypDB"
   },
   {
+    "chromosomes": 5,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_028658345.1",
+    "organism": "Babesia duncani strain WA1 2023",
+    "species": "Babesia duncani",
+    "strain": "strain WA1 2023",
+    "supercontigs": 160,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_028658345.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
     "chromosomes": 14,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_900002335.2",
@@ -5387,6 +5970,17 @@
     "strain": "yoelii 17X",
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900002385.2",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900002395.1",
+    "organism": "Plasmodium yoelii yoelii YM",
+    "species": "Plasmodium yoelii",
+    "strain": "yoelii YM",
+    "supercontigs": 181,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900002395.1",
     "vEuPathDbProject": "PlasmoDB"
   },
   {
@@ -5468,6 +6062,28 @@
   },
   {
     "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900090025.2",
+    "organism": "Plasmodium ovale wallikeri PowCR01",
+    "species": "Plasmodium ovale",
+    "strain": "wallikeri PowCR01",
+    "supercontigs": 763,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900090025.2",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 638,
+    "genomeVersionAssemblyId": "GCA_900090035.2",
+    "organism": "Plasmodium ovale curtisi GH01",
+    "species": "Plasmodium ovale",
+    "strain": "curtisi GH01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900090035.2",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
     "contigs": 47,
     "genomeVersionAssemblyId": "GCA_900090045.1",
     "organism": "Plasmodium malariae UG01",
@@ -5479,6 +6095,28 @@
   },
   {
     "chromosomes": 14,
+    "contigs": 226,
+    "genomeVersionAssemblyId": "GCA_900093555.2",
+    "organism": "Plasmodium vivax P01",
+    "species": "Plasmodium vivax",
+    "strain": "P01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900093555.2",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900095595.1",
+    "organism": "Plasmodium praefalciparum strain G01",
+    "species": "Plasmodium praefalciparum",
+    "strain": "strain G01",
+    "supercontigs": 39,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900095595.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
     "contigs": 68,
     "genomeVersionAssemblyId": "GCA_900097015.1",
     "organism": "Plasmodium adleri G01",
@@ -5486,6 +6124,39 @@
     "strain": "G01",
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900097015.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 34,
+    "genomeVersionAssemblyId": "GCA_900097025.1",
+    "organism": "Plasmodium reichenowi G01",
+    "species": "Plasmodium reichenowi",
+    "strain": "G01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900097025.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 83,
+    "genomeVersionAssemblyId": "GCA_900097035.1",
+    "organism": "Plasmodium blacklocki G01",
+    "species": "Plasmodium blacklocki",
+    "strain": "G01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900097035.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 82,
+    "genomeVersionAssemblyId": "GCA_900097045.1",
+    "organism": "Plasmodium gaboni strain G01",
+    "species": "Plasmodium gaboni",
+    "strain": "strain G01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900097045.1",
     "vEuPathDbProject": "PlasmoDB"
   },
   {
@@ -5509,6 +6180,28 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900149145.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900162085.1",
+    "organism": "Plasmodium knowlesi strain A1H1",
+    "species": "Plasmodium knowlesi",
+    "strain": "strain A1H1",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900162085.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 40,
+    "genomeVersionAssemblyId": "GCA_900180395.1",
+    "organism": "Plasmodium cynomolgi strain M",
+    "species": "Plasmodium cynomolgi",
+    "strain": "strain M",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900180395.1",
+    "vEuPathDbProject": "PlasmoDB"
   },
   {
     "chromosomes": 21,
@@ -5553,6 +6246,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900252365.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900257145.2",
+    "organism": "Plasmodium billcollinsi G01",
+    "species": "Plasmodium billcollinsi",
+    "strain": "G01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900257145.2",
+    "vEuPathDbProject": "PlasmoDB"
   },
   {
     "chromosomes": 7,
@@ -5610,6 +6314,160 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 14,
+    "contigs": 5,
+    "genomeVersionAssemblyId": "GCA_900617135.1",
+    "organism": "Plasmodium falciparum CD01",
+    "species": "Plasmodium falciparum",
+    "strain": "CD01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900617135.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 5,
+    "genomeVersionAssemblyId": "GCA_900631975.1",
+    "organism": "Plasmodium falciparum KE01",
+    "species": "Plasmodium falciparum",
+    "strain": "KE01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900631975.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 12,
+    "genomeVersionAssemblyId": "GCA_900631985.1",
+    "organism": "Plasmodium falciparum HB3",
+    "species": "Plasmodium falciparum",
+    "strain": "HB3",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900631985.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 3,
+    "genomeVersionAssemblyId": "GCA_900631995.1",
+    "organism": "Plasmodium falciparum GN01",
+    "species": "Plasmodium falciparum",
+    "strain": "GN01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900631995.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 4,
+    "genomeVersionAssemblyId": "GCA_900632005.1",
+    "organism": "Plasmodium falciparum GA01",
+    "species": "Plasmodium falciparum",
+    "strain": "GA01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632005.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 5,
+    "genomeVersionAssemblyId": "GCA_900632015.1",
+    "organism": "Plasmodium falciparum KH02",
+    "species": "Plasmodium falciparum",
+    "strain": "KH02",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632015.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 6,
+    "genomeVersionAssemblyId": "GCA_900632025.1",
+    "organism": "Plasmodium falciparum KH01",
+    "species": "Plasmodium falciparum",
+    "strain": "KH01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632025.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 10,
+    "genomeVersionAssemblyId": "GCA_900632035.1",
+    "organism": "Plasmodium falciparum GB4",
+    "species": "Plasmodium falciparum",
+    "strain": "GB4",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632035.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900632045.1",
+    "organism": "Plasmodium falciparum Dd2",
+    "species": "Plasmodium falciparum",
+    "strain": "Dd2",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632045.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 11,
+    "genomeVersionAssemblyId": "GCA_900632055.1",
+    "organism": "Plasmodium falciparum IT",
+    "species": "Plasmodium falciparum",
+    "strain": "IT",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632055.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 63,
+    "genomeVersionAssemblyId": "GCA_900632065.1",
+    "organism": "Plasmodium falciparum TG01",
+    "species": "Plasmodium falciparum",
+    "strain": "TG01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632065.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 20,
+    "genomeVersionAssemblyId": "GCA_900632075.1",
+    "organism": "Plasmodium falciparum SN01",
+    "species": "Plasmodium falciparum",
+    "strain": "SN01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632075.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 101,
+    "genomeVersionAssemblyId": "GCA_900632085.1",
+    "organism": "Plasmodium falciparum ML01",
+    "species": "Plasmodium falciparum",
+    "strain": "ML01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632085.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 13,
+    "contigs": 4,
+    "genomeVersionAssemblyId": "GCA_900632095.1",
+    "organism": "Plasmodium falciparum SD01",
+    "species": "Plasmodium falciparum",
+    "strain": "SD01",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900632095.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
     "chromosomes": 36,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_900635355.2",
@@ -5629,6 +6487,61 @@
     "strain": "vinckei CY",
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900681995.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_902459845.2",
+    "organism": "Hepatocystis sp. ex Piliocolobus tephrosceles 2019",
+    "species": "Hepatocystis sp. ex Piliocolobus tephrosceles",
+    "strain": "2019",
+    "supercontigs": 2439,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_902459845.2",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_903994205.1",
+    "organism": "Plasmodium vinckei brucechwatti DA",
+    "species": "Plasmodium vinckei",
+    "strain": "brucechwatti DA",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_903994205.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_903994225.1",
+    "organism": "Plasmodium vinckei lentum DE",
+    "species": "Plasmodium vinckei",
+    "strain": "lentum DE",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_903994225.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_903994235.1",
+    "organism": "Plasmodium vinckei petteri CR 2020",
+    "species": "Plasmodium vinckei",
+    "strain": "petteri CR 2020",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_903994235.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_903994265.1",
+    "organism": "Plasmodium vinckei Cameroon EL",
+    "species": "Plasmodium vinckei",
+    "strain": "Cameroon EL",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_903994265.1",
     "vEuPathDbProject": "PlasmoDB"
   },
   {
@@ -5654,6 +6567,28 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 15,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_905310635.1",
+    "organism": "Eimeria tenella Houghton 2021",
+    "species": "Eimeria tenella",
+    "strain": "Houghton 2021",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_905310635.1",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_914969965.1",
+    "organism": "Plasmodium vivax PvW1",
+    "species": "Plasmodium vivax",
+    "strain": "PvW1",
+    "supercontigs": 19,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_914969965.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
     "chromosomes": 36,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_916722125.1",
@@ -5674,6 +6609,28 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_917563935.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_949152365.1",
+    "organism": "Plasmodium vivax PAM",
+    "species": "Plasmodium vivax",
+    "strain": "PAM",
+    "supercontigs": 28,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_949152365.1",
+    "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCF_000006515.1",
+    "organism": "Cryptosporidium muris RN66",
+    "species": "Cryptosporidium muris",
+    "strain": "RN66",
+    "supercontigs": 84,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000006515.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 14,
@@ -5751,6 +6708,17 @@
     "supercontigs": 62,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_001477545.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 738,
+    "genomeVersionAssemblyId": "GCF_002999335.1",
+    "organism": "Cyclospora cayetanensis isolate NF1_C8",
+    "species": "Cyclospora cayetanensis",
+    "strain": "isolate NF1_C8",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_002999335.1",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
