@@ -12,18 +12,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       pageTitle: "BRC Analytics",
       themeOptions: {
-        components: {
-          MuiLink: {
-            styleOverrides: {
-              root: {
-                color: "#28285b",
-                textDecoration: "underline",
-                // eslint-disable-next-line sort-keys -- disabling key order for readability
-                "&:hover": { textDecoration: "none" },
-              },
-            },
-          },
-        },
         palette: {
           background: { default: smokeLightest },
         },
