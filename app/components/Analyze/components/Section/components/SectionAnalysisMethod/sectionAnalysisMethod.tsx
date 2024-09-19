@@ -37,15 +37,23 @@ export const SectionAnalysisMethod = (): JSX.Element => {
           <AnalysisMethod
             text={<VariantCalling />}
             title="Variant calling"
-            url=""
+            url="https://training.galaxyproject.org/training-material/topics/variant-analysis"
           />
           <AnalysisMethod
             text={<Transcriptomics />}
             title="Transcriptomics"
-            url=""
+            url="https://training.galaxyproject.org/training-material/topics/transcriptomics"
           />
-          <AnalysisMethod text={<Regulation />} title="Regulation" url="" />
-          <AnalysisMethod text={<Assembly />} title="Assembly" url="" />
+          <AnalysisMethod
+            text={<Regulation />}
+            title="Regulation"
+            url="https://training.galaxyproject.org/training-material/topics/epigenetics"
+          />
+          <AnalysisMethod
+            text={<Assembly />}
+            title="Assembly"
+            url="https://training.galaxyproject.org/training-material/topics/assembly"
+          />
           <AnalysisMethod
             text={<GenomeComparisons />}
             title="Genome comparisons"
