@@ -6,9 +6,10 @@ import {
 import styled from "@emotion/styled";
 import {
   sectionGrid,
-  SectionLayout as DefaultLayout,
+  sectionLayout,
 } from "../../../../../Layout/components/AppLayout/components/Section/section.styles";
 import {
+  muiLink,
   SectionHeadline,
   SectionSubtitle,
   SectionTitle,
@@ -20,7 +21,8 @@ export const Section = styled.section`
   width: 100%;
 `;
 
-export const SectionLayout = styled(DefaultLayout)`
+export const SectionLayout = styled.div`
+  ${sectionLayout};
   ${sectionGrid};
   padding: 85px 16px 150px;
 `;
@@ -41,14 +43,6 @@ export const StyledSectionTitle = styled(SectionTitle)`
 `;
 
 export const StyledSectionSubTitle = styled(SectionSubtitle)`
+  ${muiLink};
   line-height: 28px;
-
-  .MuiLink-root {
-    color: #28285b;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
 `;
