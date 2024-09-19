@@ -42,14 +42,5 @@ export const StyledAccordion = styled(MAccordion)`
     color: ${inkLight};
     margin: 0;
     padding: 0 20px 8px;
-
-    .MuiLink-root {
-      color: #28285b;
-      text-decoration: underline;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
   }
 ` as typeof MAccordion;
