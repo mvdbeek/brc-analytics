@@ -4,6 +4,7 @@ import { BRCDataCatalogGenome } from "../../../app/apis/catalog/brc-analytics-ca
 import * as C from "../../../app/components";
 import * as P from "../../../app/theme/common/palette";
 import { ROUTES } from "../../../routes/constants";
+import { floating } from "./floating/floating";
 import { genomeEntityConfig } from "./index/genomeEntityConfig";
 
 const LOCALHOST = "http://localhost:3000";
@@ -35,6 +36,7 @@ export function makeConfig(browserUrl: string): SiteConfig {
     entities: [genomeEntityConfig as EntityConfig<BRCDataCatalogGenome>],
     explorerTitle: APP_TITLE,
     layout: {
+      floating,
       footer: {
         Branding: C.Branding(),
       },
