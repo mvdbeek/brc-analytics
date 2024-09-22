@@ -222,6 +222,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000003855.2",
+    "organism": "Blastomyces gilchristii SLH14081",
+    "species": "Blastomyces gilchristii",
+    "strain": "SLH14081",
+    "supercontigs": 100,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000003855.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000004985.1",
     "organism": "Naegleria gruberi strain NEG-M",
     "species": "Naegleria gruberi",
@@ -273,6 +284,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000006355.2",
     "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 1422,
+    "genomeVersionAssemblyId": "GCA_000006425.1",
+    "organism": "Cryptosporidium hominis TU502",
+    "species": "Cryptosporidium hominis",
+    "strain": "TU502",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000006425.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 7,
@@ -539,6 +561,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 14,
+    "contigs": 2034,
+    "genomeVersionAssemblyId": "GCA_000149715.2",
+    "organism": "Toxoplasma gondii GT1",
+    "species": "Toxoplasma gondii",
+    "strain": "GT1",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000149715.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000149755.2",
@@ -569,6 +602,17 @@
     "strain": "yFS275",
     "supercontigs": 32,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000149845.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000149865.1",
+    "organism": "Batrachochytrium dendrobatidis JEL423",
+    "species": "Batrachochytrium dendrobatidis",
+    "strain": "JEL423",
+    "supercontigs": 69,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000149865.1",
     "vEuPathDbProject": "FungiDB"
   },
   {
@@ -822,6 +866,17 @@
     "strain": "CBS 127.97",
     "supercontigs": 123,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000151175.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000151295.1",
+    "organism": "Allomyces macrogynus ATCC 38327",
+    "species": "Allomyces macrogynus",
+    "strain": "ATCC 38327",
+    "supercontigs": 101,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000151295.1",
     "vEuPathDbProject": "FungiDB"
   },
   {
@@ -1321,6 +1376,72 @@
   },
   {
     "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000224805.2",
+    "organism": "Toxoplasma gondii RUB",
+    "species": "Toxoplasma gondii",
+    "strain": "RUB",
+    "supercontigs": 2424,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000224805.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000224825.2",
+    "organism": "Toxoplasma gondii TgCATBr9",
+    "species": "Toxoplasma gondii",
+    "strain": "TgCATBr9",
+    "supercontigs": 2452,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000224825.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000224845.2",
+    "organism": "Toxoplasma gondii VAND",
+    "species": "Toxoplasma gondii",
+    "strain": "VAND",
+    "supercontigs": 2137,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000224845.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000224865.2",
+    "organism": "Toxoplasma gondii MAS",
+    "species": "Toxoplasma gondii",
+    "strain": "MAS",
+    "supercontigs": 2180,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000224865.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000224885.2",
+    "organism": "Toxoplasma gondii p89",
+    "species": "Toxoplasma gondii",
+    "strain": "p89",
+    "supercontigs": 2150,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000224885.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000224905.2",
+    "organism": "Toxoplasma gondii FOU",
+    "species": "Toxoplasma gondii",
+    "strain": "FOU",
+    "supercontigs": 2869,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000224905.2",
+    "vEuPathDbProject": "ToxoDB"
+  },
+  {
+    "chromosomes": 0,
     "contigs": 3076,
     "genomeVersionAssemblyId": "GCA_000225285.2",
     "organism": "Epichloe glyceriae E277",
@@ -1527,6 +1648,17 @@
     "supercontigs": 36,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000250755.2",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000250965.2",
+    "organism": "Toxoplasma gondii ARI",
+    "species": "Toxoplasma gondii",
+    "strain": "ARI",
+    "supercontigs": 2723,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000250965.2",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
@@ -1916,6 +2048,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000338855.1",
+    "organism": "Entamoeba histolytica KU27",
+    "species": "Entamoeba histolytica",
+    "strain": "KU27",
+    "supercontigs": 1796,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000338855.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000340215.1",
     "organism": "Pseudocercospora fijiensis CIRAD86",
     "species": "Pseudocercospora fijiensis",
@@ -1956,6 +2099,28 @@
     "supercontigs": 8,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000342415.1",
     "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000344925.1",
+    "organism": "Entamoeba histolytica HM-1:IMSS-B",
+    "species": "Entamoeba histolytica",
+    "strain": "HM-1:IMSS-B",
+    "supercontigs": 1938,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000344925.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000346345.1",
+    "organism": "Entamoeba histolytica HM-3:IMSS",
+    "species": "Entamoeba histolytica",
+    "strain": "HM-3:IMSS",
+    "supercontigs": 1880,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000346345.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -2121,6 +2286,17 @@
     "supercontigs": 1780,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000365225.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000365475.1",
+    "organism": "Entamoeba histolytica HM-1:IMSS-A",
+    "species": "Entamoeba histolytica",
+    "strain": "HM-1:IMSS-A",
+    "supercontigs": 1685,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000365475.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -2884,6 +3060,149 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826245.1",
+    "organism": "Acanthamoeba astronyxis Unknown",
+    "species": "Acanthamoeba astronyxis",
+    "strain": "Unknown",
+    "supercontigs": 98248,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826245.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826265.1",
+    "organism": "Acanthamoeba culbertsoni A1",
+    "species": "Acanthamoeba culbertsoni",
+    "strain": "A1",
+    "supercontigs": 72411,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826265.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826285.1",
+    "organism": "Acanthamoeba lenticulata PD2S",
+    "species": "Acanthamoeba lenticulata",
+    "strain": "PD2S",
+    "supercontigs": 79048,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826285.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826305.1",
+    "organism": "Acanthamoeba palestinensis Reich",
+    "species": "Acanthamoeba palestinensis",
+    "strain": "Reich",
+    "supercontigs": 26188,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826305.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826325.1",
+    "organism": "Acanthamoeba triangularis SH621",
+    "species": "Acanthamoeba triangularis",
+    "strain": "SH621",
+    "supercontigs": 56742,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826325.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826345.1",
+    "organism": "Acanthamoeba sp T4b-type",
+    "species": "Acanthamoeba sp.",
+    "strain": "T4B-type",
+    "supercontigs": 224482,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826345.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826365.1",
+    "organism": "Acanthamoeba sp Incertae sedis",
+    "species": "Acanthamoeba sp.",
+    "strain": "Incertae_sedis",
+    "supercontigs": 24098,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826365.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826385.1",
+    "organism": "Acanthamoeba rhysodes Singh",
+    "species": "Acanthamoeba rhysodes",
+    "strain": "Singh",
+    "supercontigs": 62836,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826385.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826425.1",
+    "organism": "Acanthamoeba lugdunensis L3a",
+    "species": "Acanthamoeba lugdunensis",
+    "strain": "L3a",
+    "supercontigs": 67459,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826425.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826445.1",
+    "organism": "Acanthamoeba quina Vil3",
+    "species": "Acanthamoeba quina",
+    "strain": "Vil3",
+    "supercontigs": 60490,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826445.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826465.1",
+    "organism": "Acanthamoeba mauritaniensis 1652",
+    "species": "Acanthamoeba mauritaniensis",
+    "strain": "1652",
+    "supercontigs": 67233,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826465.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826485.1",
+    "organism": "Acanthamoeba castellanii Ma",
+    "species": "Acanthamoeba castellanii",
+    "strain": "Ma",
+    "supercontigs": 221748,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826485.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000826505.1",
+    "organism": "Acanthamoeba sp Galka",
+    "species": "Acanthamoeba sp.",
+    "strain": "Galka",
+    "supercontigs": 224137,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000826505.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000828355.1",
     "organism": "Sarcoptes scabiei Arlian",
     "species": "Sarcoptes scabiei",
@@ -3170,6 +3489,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001185145.1",
+    "organism": "Balamuthia mandrillaris CDC-V039",
+    "species": "Balamuthia mandrillaris",
+    "strain": "CDC-V039",
+    "supercontigs": 1604,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001185145.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_001189475.1",
     "organism": "Candida auris strain 6684",
     "species": "[Candida] auris",
@@ -3177,6 +3507,17 @@
     "supercontigs": 99,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_001189475.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001262475.1",
+    "organism": "Balamuthia mandrillaris strain 2046",
+    "species": "Balamuthia mandrillaris",
+    "strain": "strain 2046",
+    "supercontigs": 14699,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001262475.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -4037,6 +4378,17 @@
     "vEuPathDbProject": "TriTrypDB"
   },
   {
+    "chromosomes": 13,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_002219185.1",
+    "organism": "Nakaseomyces glabratus DSY562",
+    "species": "Nakaseomyces glabratus",
+    "strain": "DSY562",
+    "supercontigs": 5,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002219185.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 8,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_002223825.1",
@@ -4222,6 +4574,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_002897235.1",
     "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 3460,
+    "genomeVersionAssemblyId": "GCA_002914575.1",
+    "organism": "Entamoeba moshkovskii Laredo",
+    "species": "Entamoeba moshkovskii",
+    "strain": "Laredo",
+    "supercontigs": 1147,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002914575.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -4851,6 +5214,17 @@
     "vEuPathDbProject": "MicrosporidiaDB"
   },
   {
+    "chromosomes": 5,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_004337985.1",
+    "organism": "Pyricularia pennisetigena Br36",
+    "species": "Pyricularia pennisetigena",
+    "strain": "Br36",
+    "supercontigs": 103,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_004337985.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_004355085.1",
@@ -5172,12 +5546,45 @@
   {
     "chromosomes": 11,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_013339685.2",
+    "organism": "Hyalomma asiaticum Hyas-2018",
+    "species": "Hyalomma asiaticum",
+    "strain": "Hyas-2018",
+    "supercontigs": 6308,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013339685.2",
+    "vEuPathDbProject": "VectorBase"
+  },
+  {
+    "chromosomes": 11,
+    "contigs": 7036,
+    "genomeVersionAssemblyId": "GCA_013339725.1",
+    "organism": "Rhipicephalus microplus Rmic-2018",
+    "species": "Rhipicephalus microplus",
+    "strain": "Rmic-2018",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_013339725.1",
+    "vEuPathDbProject": "VectorBase"
+  },
+  {
+    "chromosomes": 11,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_013339745.2",
     "organism": "Dermacentor silvarum Dsil-2018",
     "species": "Dermacentor silvarum",
     "strain": "Dsil-2018",
     "supercontigs": 1653,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_013339745.2",
+    "vEuPathDbProject": "VectorBase"
+  },
+  {
+    "chromosomes": 11,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_013339765.2",
+    "organism": "Haemaphysalis longicornis HaeL-2018",
+    "species": "Haemaphysalis longicornis",
+    "strain": "HaeL-2018",
+    "supercontigs": 3874,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013339765.2",
     "vEuPathDbProject": "VectorBase"
   },
   {
@@ -5190,6 +5597,17 @@
     "supercontigs": 923,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013358655.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_013358835.2",
+    "organism": "Ixodes persulcatus Iper-2018",
+    "species": "Ixodes persulcatus",
+    "strain": "Iper-2018",
+    "supercontigs": 11596,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_013358835.2",
+    "vEuPathDbProject": "VectorBase"
   },
   {
     "chromosomes": 0,
@@ -5344,6 +5762,17 @@
     "supercontigs": 153,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_015227675.2",
     "vEuPathDbProject": "HostDB"
+  },
+  {
+    "chromosomes": 8,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_015245375.1",
+    "organism": "Cryptosporidium parvum IOWA-ATCC",
+    "species": "Cryptosporidium parvum",
+    "strain": "IOWA-ATCC",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_015245375.1",
+    "vEuPathDbProject": "CryptoDB"
   },
   {
     "chromosomes": 3,
@@ -5643,6 +6072,28 @@
     "vEuPathDbProject": "CryptoDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_018466815.1",
+    "organism": "Entamoeba histolytica DS4-868",
+    "species": "Entamoeba histolytica",
+    "strain": "DS4-868",
+    "supercontigs": 1177,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_018466815.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_019059535.1",
+    "organism": "Entamoeba histolytica KU48",
+    "species": "Entamoeba histolytica",
+    "strain": "KU48",
+    "supercontigs": 1168,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_019059535.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
     "chromosomes": 11,
     "contigs": 685,
     "genomeVersionAssemblyId": "GCA_019096175.1",
@@ -5674,6 +6125,17 @@
     "supercontigs": 787,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_019968955.1",
     "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020283535.1",
+    "organism": "Entamoeba histolytica KU50",
+    "species": "Entamoeba histolytica",
+    "strain": "KU50",
+    "supercontigs": 1063,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020283535.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -5740,6 +6202,28 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020844765.3",
     "vEuPathDbProject": "PlasmoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_021020595.1",
+    "organism": "Acanthamoeba castellanii C3",
+    "species": "Acanthamoeba castellanii",
+    "strain": "C3",
+    "supercontigs": 174,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_021020595.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_021020605.1",
+    "organism": "Acanthamoeba castellanii str. Neff 2021",
+    "species": "Acanthamoeba castellanii",
+    "strain": "str. Neff 2021",
+    "supercontigs": 111,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_021020605.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -5916,6 +6400,39 @@
     "supercontigs": 212,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_026262505.1",
     "vEuPathDbProject": "TrichDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_027943245.1",
+    "organism": "Acanthamoeba sp. SK_2022b",
+    "species": "Acanthamoeba sp.",
+    "strain": "SK_2022b",
+    "supercontigs": 1790,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_027943245.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_027943295.1",
+    "organism": "Acanthamoeba sp. SK_2022a",
+    "species": "Acanthamoeba sp.",
+    "strain": "SK_2022a",
+    "supercontigs": 2108,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_027943295.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_027944975.1",
+    "organism": "Acanthamoeba sp. SK_2022c",
+    "species": "Acanthamoeba sp.",
+    "strain": "SK_2022c",
+    "supercontigs": 20778,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_027944975.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -6501,6 +7018,17 @@
     "vEuPathDbProject": "PlasmoDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_902651635.1",
+    "organism": "Mastigamoeba balamuthi ATCC 30984",
+    "species": "Mastigamoeba balamuthi",
+    "strain": "ATCC 30984",
+    "supercontigs": 1925,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_902651635.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
     "chromosomes": 14,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_903994205.1",
@@ -6598,6 +7126,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_916722125.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_917563895.1",
+    "organism": "Entamoeba histolytica Rahman",
+    "species": "Entamoeba histolytica",
+    "strain": "Rahman",
+    "supercontigs": 18523,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_917563895.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 13,

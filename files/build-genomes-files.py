@@ -3,7 +3,7 @@ import re
 import requests
 
 GENOMES_SOURCE_URL = "https://docs.google.com/spreadsheets/d/1NRfTvebPl6zJ0l9tCqBtq6YCrwV6_XDBlheq3L5HcvQ/gviz/tq?tqx=out:csv&sheet=GenomeDataTypes_Summary.csv"
-ASSEMBLIES_URL = "https://hgdownload.soe.ucsc.edu/hubs/BRC/assembly.list.json"
+ASSEMBLIES_URL = "https://hgdownload.soe.ucsc.edu/hubs/BRC/assemblyList.json"
 
 OUTPUT_PATH = "files/source/genomes.tsv"
 
