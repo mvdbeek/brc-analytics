@@ -11,8 +11,8 @@ def get_duplicate_ids(genomes_df):
   counts = genomes_df["Genome Version/Assembly ID"].value_counts()
   return list(counts.index.to_series().loc[counts > 1])
 
-def get_num_unmatched_assemblies(assemblies_df, result_df):
-  return len(set(assemblies_df["asmId"]) - set(result_df["asmId"]))
+def get_unmatched_assemblies(assemblies_df, result_df):
+  return set(assemblies_df["asmId"]) - set(result_df["asmId"])
 
 def build_genomes_files():
   print("Building files")
@@ -30,9 +30,9 @@ def build_genomes_files():
 
   result_df = gen_bank_merge_df.combine_first(ref_seq_merge_df).dropna(subset=["ucscBrowser"])
 
-  num_unmatched_assemblies = get_num_unmatched_assemblies(assemblies_df, result_df)
-  if (num_unmatched_assemblies != 0):
-    print(f"{num_unmatched_assemblies} assemblies had no matches and are omitted")
+  unmatched_assemblies = get_unmatched_assemblies(assemblies_df, result_df)
+  if (len(unmatched_assemblies) != 0):
+    print(f"Omitted {len(unmatched_assemblies)} assemblies that had no matches: {", ".join(unmatched_assemblies)}")
 
   result_df.to_csv(OUTPUT_PATH, index=False, sep="\t")
 
