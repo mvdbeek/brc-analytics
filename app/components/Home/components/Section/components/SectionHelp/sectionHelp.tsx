@@ -20,6 +20,11 @@ export const SectionHelp = (): JSX.Element => {
               label="help@brc-analytics.org"
               url="mailto:help@brc-analytics.org"
             />
+            , or join discussions on the{" "}
+            <DXLink
+              label="Discourse forum"
+              url="https://help.brc-analytics.org/"
+            />
             . We&#39;re here to help!
           </StyledSectionSubTitle>
         </Headline>
