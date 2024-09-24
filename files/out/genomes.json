@@ -187,6 +187,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 4,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000003225.1",
+    "organism": "Theileria annulata strain Ankara",
+    "species": "Theileria annulata",
+    "strain": "strain Ankara",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000003225.1",
+    "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000003515.2",
@@ -349,6 +360,17 @@
     "strain": "T30-4",
     "supercontigs": 4921,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000142945.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000143045.1",
+    "organism": "Globisporangium ultimum DAOM BR144",
+    "species": "Globisporangium ultimum",
+    "strain": "DAOM BR144",
+    "supercontigs": 975,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000143045.1",
     "vEuPathDbProject": "FungiDB"
   },
   {
@@ -647,6 +669,17 @@
     "supercontigs": 70,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000149955.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 14,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000150015.2",
+    "organism": "Toxoplasma gondii VEG",
+    "species": "Toxoplasma gondii",
+    "strain": "VEG",
+    "supercontigs": 1290,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000150015.2",
+    "vEuPathDbProject": "ToxoDB"
   },
   {
     "chromosomes": 0,
@@ -1047,6 +1080,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000173235.2",
+    "organism": "Hyaloperonospora arabidopsidis Emoy2",
+    "species": "Hyaloperonospora arabidopsidis",
+    "strain": "Emoy2",
+    "supercontigs": 3044,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000173235.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000181055.3",
     "organism": "Rhodnius prolixus CDC",
     "species": "Rhodnius prolixus",
@@ -1054,6 +1098,17 @@
     "supercontigs": 16537,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000181055.3",
     "vEuPathDbProject": "VectorBase"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 2931,
+    "genomeVersionAssemblyId": "GCA_000182405.1",
+    "organism": "Giardia Assemblage B isolate GS",
+    "species": "Giardia Assemblage B",
+    "strain": "isolate GS",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000182405.1",
+    "vEuPathDbProject": "GiardiaDB"
   },
   {
     "chromosomes": 0,
@@ -1065,6 +1120,17 @@
     "supercontigs": 38,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000182565.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 820,
+    "genomeVersionAssemblyId": "GCA_000182665.1",
+    "organism": "Giardia Assemblage E isolate P15",
+    "species": "Giardia Assemblage E",
+    "strain": "isolate P15",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000182665.1",
+    "vEuPathDbProject": "GiardiaDB"
   },
   {
     "chromosomes": 8,
@@ -2343,6 +2409,72 @@
     "vEuPathDbProject": "MicrosporidiaDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000387425.2",
+    "organism": "Globisporangium irregulare DAOM BR486",
+    "species": "Globisporangium irregulare",
+    "strain": "DAOM BR486",
+    "supercontigs": 5887,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000387425.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000387445.2",
+    "organism": "Pythium aphanidermatum DAOM BR444",
+    "species": "Pythium aphanidermatum",
+    "strain": "DAOM BR444",
+    "supercontigs": 1774,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000387445.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000387465.2",
+    "organism": "Globisporangium iwayamae DAOM BR242034",
+    "species": "Globisporangium iwayamae",
+    "strain": "DAOM BR242034",
+    "supercontigs": 11542,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000387465.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000387505.2",
+    "organism": "Pythium arrhenomanes ATCC 12531",
+    "species": "Pythium arrhenomanes",
+    "strain": "ATCC 12531",
+    "supercontigs": 10972,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000387505.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000387525.2",
+    "organism": "Globisporangium ultimum var. sporangiiferum BR650",
+    "species": "Globisporangium ultimum",
+    "strain": "var. sporangiiferum BR650",
+    "supercontigs": 5482,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000387525.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000387545.2",
+    "organism": "Phytopythium vexans DAOM BR484",
+    "species": "Phytopythium vexans",
+    "strain": "DAOM BR484",
+    "supercontigs": 3685,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000387545.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 8,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_000400815.2",
@@ -2605,6 +2737,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000496795.1",
     "vEuPathDbProject": "TriTrypDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_000499105.1",
+    "organism": "Naegleria fowleri ATCC 30863",
+    "species": "Naegleria fowleri",
+    "strain": "ATCC 30863",
+    "supercontigs": 1124,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000499105.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -3708,6 +3851,28 @@
   },
   {
     "chromosomes": 0,
+    "contigs": 1139,
+    "genomeVersionAssemblyId": "GCA_001493575.1",
+    "organism": "Giardia assemblage A isolate AS175",
+    "species": "Giardia Assemblage A",
+    "strain": "AS175",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001493575.1",
+    "vEuPathDbProject": "GiardiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001543975.1",
+    "organism": "Giardia Assemblage B isolate BAH15c1",
+    "species": "Giardia Assemblage B",
+    "strain": "isolate BAH15c1",
+    "supercontigs": 508,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001543975.1",
+    "vEuPathDbProject": "GiardiaDB"
+  },
+  {
+    "chromosomes": 0,
     "contigs": 11196,
     "genomeVersionAssemblyId": "GCA_001593125.1",
     "organism": "Rhizophagus irregularis A1 (DAOM-664342)",
@@ -3892,6 +4057,17 @@
     "supercontigs": 186,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001642415.1",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_001643675.2",
+    "organism": "Monocercomonoides exilis PA203",
+    "species": "Monocercomonoides exilis",
+    "strain": "PA203",
+    "supercontigs": 101,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_001643675.2",
+    "vEuPathDbProject": "GiardiaDB"
   },
   {
     "chromosomes": 0,
@@ -4412,6 +4588,17 @@
   },
   {
     "chromosomes": 0,
+    "contigs": 1897,
+    "genomeVersionAssemblyId": "GCA_002247145.1",
+    "organism": "Phytophthora plurivora AV1007",
+    "species": "Phytophthora plurivora",
+    "strain": "AV1007",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002247145.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
     "contigs": 751,
     "genomeVersionAssemblyId": "GCA_002271815.1",
     "organism": "Eimeria falciformis Bayer Haberkorn 1970",
@@ -4574,6 +4761,17 @@
     "supercontigs": 0,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_002897235.1",
     "vEuPathDbProject": "PiroplasmaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 24809,
+    "genomeVersionAssemblyId": "GCA_002911725.1",
+    "organism": "Phytophthora palmivora var. palmivora strain sbr112.9",
+    "species": "Phytophthora palmivora",
+    "strain": "var. palmivora strain sbr112.9",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_002911725.1",
+    "vEuPathDbProject": "FungiDB"
   },
   {
     "chromosomes": 0,
@@ -4851,6 +5049,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_003287315.1",
+    "organism": "Phytophthora cactorum 10300",
+    "species": "Phytophthora cactorum",
+    "strain": "10300",
+    "supercontigs": 4623,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_003287315.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 9,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_003290485.1",
@@ -5104,6 +5313,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_003843895.1",
+    "organism": "Peronospora effusa R13",
+    "species": "Peronospora effusa",
+    "strain": "R13",
+    "supercontigs": 784,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_003843895.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 3,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_003951495.1",
@@ -5236,6 +5456,17 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 19,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_004359215.2",
+    "organism": "Bremia lactucae strain SF5",
+    "species": "Bremia lactucae",
+    "strain": "strain SF5",
+    "supercontigs": 201,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_004359215.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_004798825.1",
@@ -5267,6 +5498,17 @@
     "supercontigs": 50,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_004936735.2",
     "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 5,
+    "contigs": 54,
+    "genomeVersionAssemblyId": "GCA_006247105.1",
+    "organism": "Giardia muris strain Roberts-Thomson",
+    "species": "Giardia muris",
+    "strain": "strain Roberts-Thomson",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_006247105.1",
+    "vEuPathDbProject": "GiardiaDB"
   },
   {
     "chromosomes": 0,
@@ -5720,6 +5962,17 @@
     "vEuPathDbProject": "MicrosporidiaDB"
   },
   {
+    "chromosomes": 37,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_014843625.1",
+    "organism": "Naegleria fowleri strain Ty",
+    "species": "Naegleria fowleri",
+    "strain": "strain Ty",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_014843625.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_014898695.1",
@@ -5828,6 +6081,17 @@
     "supercontigs": 11522,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_016256075.1",
     "vEuPathDbProject": "MicrosporidiaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_016618375.1",
+    "organism": "Phytophthora capsici LT1534",
+    "species": "Phytophthora capsici",
+    "strain": "LT1534",
+    "supercontigs": 782,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_016618375.1",
+    "vEuPathDbProject": "FungiDB"
   },
   {
     "chromosomes": 0,
@@ -6072,6 +6336,17 @@
     "vEuPathDbProject": "CryptoDB"
   },
   {
+    "chromosomes": 8,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_018416015.2",
+    "organism": "Coccidioides posadasii strain Silveira 2022",
+    "species": "Coccidioides posadasii",
+    "strain": "strain Silveira 2022",
+    "supercontigs": 0,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_018416015.2",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_018466815.1",
@@ -6081,6 +6356,17 @@
     "supercontigs": 1177,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_018466815.1",
     "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_018691715.1",
+    "organism": "Phytophthora cinnamomi GKB4",
+    "species": "Phytophthora cinnamomi",
+    "strain": "GKB4",
+    "supercontigs": 133,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_018691715.1",
+    "vEuPathDbProject": "FungiDB"
   },
   {
     "chromosomes": 0,
@@ -6125,6 +6411,28 @@
     "supercontigs": 787,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_019968955.1",
     "vEuPathDbProject": "CryptoDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020184695.1",
+    "organism": "Histomonas meleagridis 2922-C6/04-290x",
+    "species": "Histomonas meleagridis",
+    "strain": "2922-C6/04-290x",
+    "supercontigs": 281,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020184695.1",
+    "vEuPathDbProject": "TrichDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020186115.1",
+    "organism": "Histomonas meleagridis 2922-C6/04-10x",
+    "species": "Histomonas meleagridis",
+    "strain": "2922-C6/04-10x",
+    "supercontigs": 187,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020186115.1",
+    "vEuPathDbProject": "TrichDB"
   },
   {
     "chromosomes": 0,
@@ -6193,6 +6501,28 @@
     "vEuPathDbProject": "FungiDB"
   },
   {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020800215.1",
+    "organism": "Phytophthora ramorum strain Pr102",
+    "species": "Phytophthora ramorum",
+    "strain": "strain Pr102",
+    "supercontigs": 28,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020800215.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_020800235.1",
+    "organism": "Phytophthora ramorum 14567",
+    "species": "Phytophthora ramorum",
+    "strain": "14567",
+    "supercontigs": 27,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_020800235.1",
+    "vEuPathDbProject": "FungiDB"
+  },
+  {
     "chromosomes": 14,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCA_020844765.3",
@@ -6224,6 +6554,17 @@
     "supercontigs": 111,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_021020605.1",
     "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_021527665.1",
+    "organism": "Aphanomyces euteiches MF1",
+    "species": "Aphanomyces euteiches",
+    "strain": "MF1",
+    "supercontigs": 7789,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_021527665.1",
+    "vEuPathDbProject": "FungiDB"
   },
   {
     "chromosomes": 0,
@@ -6279,6 +6620,17 @@
     "supercontigs": 89,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_022385695.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_022530875.1",
+    "organism": "Naegleria lovaniensis NL_76_15_250",
+    "species": "Naegleria lovaniensis",
+    "strain": "NL_76_15_250",
+    "supercontigs": 199,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_022530875.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -6734,6 +7086,17 @@
   {
     "chromosomes": 0,
     "contigs": 0,
+    "genomeVersionAssemblyId": "GCA_900231805.1",
+    "organism": "Trichomonas tenax strain NIH4 ATCC 30207",
+    "species": "Trichomonas tenax",
+    "strain": "strain NIH4 ATCC 30207",
+    "supercontigs": 4161,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900231805.1",
+    "vEuPathDbProject": "TrichDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
     "genomeVersionAssemblyId": "GCA_900237765.1",
     "organism": "Blumeria hordei strain RACE1",
     "species": "Blumeria hordei",
@@ -7161,6 +7524,17 @@
     "vEuPathDbProject": "PlasmoDB"
   },
   {
+    "chromosomes": 7,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCF_000004695.1",
+    "organism": "Dictyostelium discoideum AX4",
+    "species": "Dictyostelium discoideum",
+    "strain": "AX4",
+    "supercontigs": 33,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000004695.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
     "chromosomes": 0,
     "contigs": 0,
     "genomeVersionAssemblyId": "GCF_000006515.1",
@@ -7192,6 +7566,28 @@
     "supercontigs": 1212,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000182805.3",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCF_000190715.1",
+    "organism": "Dictyostelium purpureum QSDP1",
+    "species": "Dictyostelium purpureum",
+    "strain": "QSDP1",
+    "supercontigs": 799,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000190715.1",
+    "vEuPathDbProject": "AmoebaDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCF_000257125.1",
+    "organism": "Entamoeba nuttalli P19",
+    "species": "Entamoeba nuttalli",
+    "strain": "P19",
+    "supercontigs": 5233,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000257125.1",
+    "vEuPathDbProject": "AmoebaDB"
   },
   {
     "chromosomes": 0,
@@ -7247,6 +7643,17 @@
     "supercontigs": 62,
     "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_001477545.1",
     "vEuPathDbProject": "FungiDB"
+  },
+  {
+    "chromosomes": 0,
+    "contigs": 0,
+    "genomeVersionAssemblyId": "GCF_001876365.2",
+    "organism": "Aedes albopictus C6/36 cell line",
+    "species": "Aedes albopictus",
+    "strain": "C6/36 cell line",
+    "supercontigs": 2434,
+    "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_001876365.2",
+    "vEuPathDbProject": "VectorBase"
   },
   {
     "chromosomes": 0,
