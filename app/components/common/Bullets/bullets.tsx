@@ -1,4 +1,4 @@
-import { Bullet, Bullets as SectionBullets } from "./bullets.styles";
+import { Bullet, Bullets as SectionBullets, StyledDot } from "./bullets.styles";
 
 interface BulletsProps {
   activeBullet: number;
@@ -18,14 +18,15 @@ export const Bullets = ({
       {bullets.map((bullet) => (
         <Bullet
           key={bullet}
-          isActive={activeBullet === bullet}
           onClick={(): void => {
             onBullet(bullet);
           }}
           onKeyDown={(): void => {
             onBullet(bullet);
           }}
-        />
+        >
+          <StyledDot isActive={activeBullet === bullet} />
+        </Bullet>
       ))}
     </SectionBullets>
   );

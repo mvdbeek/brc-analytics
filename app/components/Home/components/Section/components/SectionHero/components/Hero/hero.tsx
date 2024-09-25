@@ -8,7 +8,6 @@ import {
   Height,
 } from "../../../../../../../Layout/components/Hero/common/entities";
 import {
-  getElementHref,
   getFillUrl,
   getViewBox,
 } from "../../../../../../../Layout/components/Hero/common/utils";
@@ -27,7 +26,7 @@ export interface HeroProps {
 
 export const Hero = ({
   gridSize = GRID_SIZE,
-  height = GRID_SIZE * 3,
+  height = gridSize * 4,
 }: HeroProps): JSX.Element => {
   return (
     <SVG
@@ -44,24 +43,19 @@ export const Hero = ({
       <YellowRect gridSize={gridSize} />
       <BlueCircle gridSize={gridSize} />
       <CoralPinkCircle gridSize={gridSize} />
-      {[
-        ELEMENT_ID.PATTERN_SMOKE_RECT,
-        ELEMENT_ID.PATTERN_SMOKE_CIRCLE,
-        // ELEMENT_ID.PATTERN_BLUE_RECT,
-        // ELEMENT_ID.PATTERN_YELLOW_RECT,
-      ].map((elementId) => (
-        <Fragment key={elementId}>
-          <rect
-            fill={getFillUrl(elementId)}
-            height={height}
-            width="100vw"
-            x={0}
-            y={0}
-          />
-        </Fragment>
-      ))}
-      {/*<use href={getElementHref(ELEMENT_ID.GROUP_BLUE_CIRCLE)} x={0} />*/}
-      <use href={getElementHref(ELEMENT_ID.GROUP_CORAL_PINK_CIRLCLE)} />
+      {[ELEMENT_ID.PATTERN_SMOKE_RECT, ELEMENT_ID.PATTERN_SMOKE_CIRCLE].map(
+        (elementId) => (
+          <Fragment key={elementId}>
+            <rect
+              fill={getFillUrl(elementId)}
+              height={height}
+              width="100vw"
+              x={0}
+              y={0}
+            />
+          </Fragment>
+        )
+      )}
     </SVG>
   );
 };
