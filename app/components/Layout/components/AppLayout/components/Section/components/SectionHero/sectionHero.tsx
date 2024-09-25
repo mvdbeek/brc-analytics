@@ -2,13 +2,14 @@ import {
   Breadcrumb,
   Breadcrumbs,
 } from "@databiosphere/findable-ui/lib/components/common/Breadcrumbs/breadcrumbs";
-import { ReactNode } from "react";
+import { Fragment, ReactNode } from "react";
+import { calculateGridSize } from "../../../../../Hero/common/utils";
 import { Hero } from "./components/Hero/hero";
 import {
   Head,
   Headline,
-  Section,
   SectionLayout,
+  StyledSection,
   Subhead,
   SubHeadline,
 } from "./sectionHero.styles";
@@ -25,19 +26,23 @@ export const SectionHero = ({
   subHead,
 }: SectionHeroProps): JSX.Element => {
   return (
-    <Section>
-      <Hero />
-      <SectionLayout>
-        <Headline>
-          <Breadcrumbs breadcrumbs={breadcrumbs} />
-          <Head>{head}</Head>
-        </Headline>
-        {subHead && (
-          <SubHeadline>
-            <Subhead>{subHead}</Subhead>
-          </SubHeadline>
-        )}
-      </SectionLayout>
-    </Section>
+    <StyledSection>
+      {(height): JSX.Element => (
+        <Fragment>
+          <Hero gridSize={calculateGridSize(height)} height={height} />
+          <SectionLayout>
+            <Headline>
+              <Breadcrumbs breadcrumbs={breadcrumbs} />
+              <Head>{head}</Head>
+            </Headline>
+            {subHead && (
+              <SubHeadline>
+                <Subhead>{subHead}</Subhead>
+              </SubHeadline>
+            )}
+          </SectionLayout>
+        </Fragment>
+      )}
+    </StyledSection>
   );
 };
