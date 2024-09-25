@@ -26,7 +26,7 @@ export interface HeroProps {
 
 export const Hero = ({
   gridSize = GRID_SIZE,
-  height = gridSize * 4,
+  height = gridSize * 3,
 }: HeroProps): JSX.Element => {
   return (
     <SVG

@@ -6,13 +6,14 @@ import {
 import { textBodyLarge4002Lines } from "@databiosphere/findable-ui/lib/styles/common/mixins/fonts";
 import { black } from "@databiosphere/findable-ui/lib/theme/common/palette";
 import styled from "@emotion/styled";
+import { Section } from "../../../../../common/Section/section";
 import {
   section,
   sectionGrid,
   sectionLayout,
 } from "../../../../../Layout/components/AppLayout/components/Section/section.styles";
 
-export const Section = styled.section`
+export const StyledSection = styled(Section)`
   ${section};
   background-color: ${smokeLightest};
   overflow: hidden;
