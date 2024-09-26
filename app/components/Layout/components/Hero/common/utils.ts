@@ -1,4 +1,10 @@
-import { SHAPE_HEIGHT, SHAPE_WIDTH, X_POSITION, Y_POSITION } from "./constants";
+import {
+  GRID_SIZE,
+  SHAPE_HEIGHT,
+  SHAPE_WIDTH,
+  X_POSITION,
+  Y_POSITION,
+} from "./constants";
 
 /**
  * Returns the path for the animateMotion element of the blue rectangle.
@@ -61,6 +67,22 @@ export function calculateCircleYPosition(
   angle: number
 ): number {
   return gridSize / 2 - (gridSize / 2) * Math.sin(degreesToRadians(angle));
+}
+
+/**
+ * Calculates the grid size based on the height and count.
+ * @param height - Section height.
+ * @param patternCount - Pattern count; vertical repeat of grid pattern.
+ * @returns grid size.
+ */
+export function calculateGridSize(
+  height = GRID_SIZE * 2,
+  patternCount?: number
+): number {
+  if (height <= GRID_SIZE * 2) {
+    return height / (patternCount || 2);
+  }
+  return height / (patternCount || 3);
 }
 
 /**

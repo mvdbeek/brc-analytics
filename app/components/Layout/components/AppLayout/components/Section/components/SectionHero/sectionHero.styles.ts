@@ -5,9 +5,10 @@ import {
 } from "@databiosphere/findable-ui/lib/styles/common/mixins/colors";
 import { textBodyLarge400 } from "@databiosphere/findable-ui/lib/styles/common/mixins/fonts";
 import styled from "@emotion/styled";
+import { Section } from "../../../../../../../common/Section/section";
 import { section, sectionGrid, sectionLayout } from "../../section.styles";
 
-export const Section = styled.section`
+export const StyledSection = styled(Section)`
   ${section};
   background-color: ${smokeLightest};
   overflow: hidden;
@@ -18,7 +19,8 @@ export const Section = styled.section`
 export const SectionLayout = styled.div`
   ${sectionLayout};
   ${sectionGrid};
-  min-height: 184px;
+  align-content: flex-start;
+  min-height: 152px;
   padding: 56px 16px;
 `;
 
