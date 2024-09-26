@@ -1,3 +1,4 @@
+import { black08 } from "@databiosphere/findable-ui/lib/theme/common/palette";
 import { TEXT_BODY_LARGE_400_2_LINES } from "@databiosphere/findable-ui/lib/theme/common/typography";
 import { Components, Theme } from "@mui/material";
 
@@ -21,6 +22,18 @@ export const MuiButton = (theme: Theme): Components["MuiButton"] => {
         "&:active": {
           backgroundColor: theme.palette.hero.main,
           boxShadow: "none",
+        },
+      },
+    },
+  };
+};
+
+export const MuiButtonGroup = (theme: Theme): Components["MuiButtonGroup"] => {
+  return {
+    styleOverrides: {
+      grouped: {
+        "&.MuiButton-containedSecondary": {
+          boxShadow: `inset 0 0 0 1px ${theme.palette.smoke.dark}, 0 1px 0 0 ${black08}`,
         },
       },
     },

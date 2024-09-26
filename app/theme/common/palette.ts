@@ -3,10 +3,10 @@ import { PaletteColor } from "@mui/material";
 /**
  * Palette "Hero"
  */
-enum HERO {
-  LIGHT = "#28285B",
-  MAIN = "#28285B",
-}
+export const HERO = {
+  LIGHT: "#28285B",
+  MAIN: "#28285B",
+};
 
 /**
  * Color constants

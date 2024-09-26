@@ -21,6 +21,7 @@ export function mergeAppTheme(
   const appTheme = createTheme(baseAppTheme, {
     components: {
       MuiButton: C.MuiButton(baseAppTheme),
+      MuiButtonGroup: C.MuiButtonGroup(baseAppTheme),
       MuiCssBaseline: C.MuiCssBaseline(baseAppTheme),
     },
   });
