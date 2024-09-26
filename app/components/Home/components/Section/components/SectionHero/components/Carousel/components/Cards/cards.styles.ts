@@ -13,7 +13,7 @@ import {
 } from "@databiosphere/findable-ui/lib/styles/common/mixins/fonts";
 import { elevation01 } from "@databiosphere/findable-ui/lib/theme/common/shadows";
 import styled from "@emotion/styled";
-import { ButtonBase as MButtonBase, Card as MCard } from "@mui/material";
+import { Card as MCard } from "@mui/material";
 import {
   MAX_CARD_HEIGHT,
   MAX_CARD_HEIGHT_SM,
@@ -86,23 +86,10 @@ export const CardContent = styled.div`
   }
 `;
 
-export const CardCallToAction = styled(MButtonBase)`
-  &.MuiButtonBase-root {
-    ${textBody500};
-    color: #28285b;
-    margin-top: 16px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    text-underline-position: from-font;
-
-    p {
-      color: inherit;
-      font: inherit;
-      margin: 0;
-    }
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
+export const CardActions = styled.div`
+  ${textBody500};
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
 `;
