@@ -1,4 +1,7 @@
-import { mediaTabletUp } from "@databiosphere/findable-ui/lib/styles/common/mixins/breakpoints";
+import {
+  mediaTabletDown,
+  mediaTabletUp,
+} from "@databiosphere/findable-ui/lib/styles/common/mixins/breakpoints";
 import {
   inkLight,
   smokeMain,
@@ -74,6 +77,13 @@ export const CardContent = styled.div`
       margin-bottom: 0;
     }
   }
+
+  ${mediaTabletDown} {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    overflow: hidden;
+  }
 `;
 
 export const CardCallToAction = styled(MButtonBase)`
@@ -84,6 +94,12 @@ export const CardCallToAction = styled(MButtonBase)`
     text-decoration: underline;
     text-decoration-skip-ink: none;
     text-underline-position: from-font;
+
+    p {
+      color: inherit;
+      font: inherit;
+      margin: 0;
+    }
 
     &:hover {
       text-decoration: none;
