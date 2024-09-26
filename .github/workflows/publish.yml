@@ -3,11 +3,13 @@ name: Deploy to S3 and CloudFront
 on:
   push:
     branches:
+      - main
       - production
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: ${{ github.ref == 'refs/heads/production' && 'production' || 'development' }}
 
     steps:
       - name: Checkout Code
