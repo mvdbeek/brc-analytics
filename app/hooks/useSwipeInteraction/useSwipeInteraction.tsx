@@ -14,6 +14,8 @@ import { SwipeAction, SwipeCoordinates, SWIPE_ACTION } from "./common/entities";
 
 export interface InteractiveAction {
   onMouseDown: (mouseEvent: MouseEvent) => void;
+  onMouseEnter: () => void;
+  onMouseLeave: () => void;
   onMouseUp: (mouseEvent: MouseEvent) => void;
   onTouchEnd: (touchEvent: TouchEvent) => void;
   onTouchMove: (touchEvent: TouchEvent) => void;
@@ -39,6 +41,7 @@ export function useSwipeInteraction(
   swipeEnabled = true,
   swipeDelay = 0
 ): UseSwipeInteraction {
+  const [interactiveDelay, setInteractiveDelay] = useState<number>(swipeDelay);
   const swipeStartCoordsRef = useRef<SwipeCoordinates>(
     DEFAULT_SWIPE_COORDINATES
   );
@@ -51,6 +54,14 @@ export function useSwipeInteraction(
   const onMouseDown = useCallback((mouseEvent: MouseEvent): void => {
     swipeStartCoordsRef.current = getMouseCoords(mouseEvent);
   }, []);
+
+  const onMouseEnter = useCallback((): void => {
+    setInteractiveDelay(0);
+  }, []);
+
+  const onMouseLeave = useCallback((): void => {
+    setInteractiveDelay(swipeDelay);
+  }, [swipeDelay]);
 
   const onMouseUp = useCallback((mouseEvent: MouseEvent): void => {
     const mouseStartCoords = swipeStartCoordsRef.current;
@@ -123,12 +134,12 @@ export function useSwipeInteraction(
   }, [swipeAction, onSwipeToIndex]);
 
   useEffect(() => {
-    if (swipeDelay === 0) return;
+    if (interactiveDelay === 0) return;
     const timeout = setTimeout(() => {
       onSwipeToIndex(1);
-    }, swipeDelay);
+    }, interactiveDelay);
     return () => clearTimeout(timeout);
-  }, [activeIndex, swipeDelay, onSwipeToIndex]);
+  }, [activeIndex, interactiveDelay, onSwipeToIndex]);
 
   if (!swipeEnabled) {
     return {
@@ -142,6 +153,8 @@ export function useSwipeInteraction(
     activeIndex,
     interactiveAction: {
       onMouseDown,
+      onMouseEnter,
+      onMouseLeave,
       onMouseUp,
       onTouchEnd,
       onTouchMove,
