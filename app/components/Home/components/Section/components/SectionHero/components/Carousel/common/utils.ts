@@ -1,4 +1,6 @@
+import { SWIPE_ACTION } from "../../../../../../../../../hooks/useSwipeInteraction/common/entities";
 import {
+  ARROW_OFFSET_Y,
   CARD_OFFSET_Y,
   CARD_SCALE_X,
   MAX_CARD_WIDTH,
@@ -6,6 +8,17 @@ import {
   TRANSITION_DELAY,
   TRANSITION_DURATION,
 } from "./constants";
+
+/**
+ * Returns the arrow's transform scaleX and translateY.
+ * @param swipeAction - Swipe action.
+ * @returns arrow's transform.
+ */
+export function getArrowTransform(swipeAction: SWIPE_ACTION): string {
+  return swipeAction === SWIPE_ACTION.SWIPE_FORWARD
+    ? `translate(24px, calc(${ARROW_OFFSET_Y}px - 50%)) scaleX(-1)`
+    : `translate(-24px, calc(${ARROW_OFFSET_Y}px - 50%))`;
+}
 
 /**
  * Returns the carousel card's position in the deck.

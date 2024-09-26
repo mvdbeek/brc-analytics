@@ -35,6 +35,17 @@ export const Carousel = styled.div`
   ${mediaTabletUp} {
     height: ${CAROUSEL_HEIGHT}px;
   }
+
+  .MuiIconButton-root {
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+  }
+
+  &:hover {
+    > .MuiIconButton-root {
+      opacity: 1;
+    }
+  }
 `;
 
 export const StyledBullets = styled(Bullets)`
