@@ -124,7 +124,15 @@ export const buildGenomeDetails = (
   genome: BRCDataCatalogGenome
 ): ComponentProps<typeof C.KeyValuePairs> => {
   const keyValuePairs = new Map<Key, Value>();
-  keyValuePairs.set("Species", genome.species);
+  keyValuePairs.set(
+    "Species",
+    C.Link({
+      label: genome.species,
+      url: `https://www.ncbi.nlm.nih.gov/datasets/taxonomy/${encodeURIComponent(
+        genome.ncbiTaxonomyId
+      )}/`,
+    })
+  );
   keyValuePairs.set("Strain", genome.strain);
   keyValuePairs.set("Assembly Version ID", genome.genomeVersionAssemblyId);
   keyValuePairs.set("VeUPathDB Project", genome.vEuPathDbProject);
@@ -173,9 +181,12 @@ export const buildOrganismListHero = (): ComponentProps<
  */
 export const buildSpecies = (
   genome: BRCDataCatalogGenome
-): ComponentProps<typeof C.BasicCell> => {
+): ComponentProps<typeof C.Link> => {
   return {
-    value: genome.species,
+    label: genome.species,
+    url: `https://www.ncbi.nlm.nih.gov/datasets/taxonomy/${encodeURIComponent(
+      genome.ncbiTaxonomyId
+    )}/`,
   };
 };
 
