@@ -1,7 +1,7 @@
 import { CustomSVGIconProps } from "@databiosphere/findable-ui/lib/components/common/CustomIcon/common/entities";
 import {
-  ButtonGroupProps as MButtonGroupProps,
   ButtonProps,
+  ButtonGroupProps as MButtonGroupProps,
 } from "@mui/material";
 
 export const BUTTON_PROPS: Partial<ButtonProps> = {

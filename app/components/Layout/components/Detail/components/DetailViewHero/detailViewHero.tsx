@@ -5,8 +5,8 @@ import { HeroTitle as Typography } from "@databiosphere/findable-ui/src/componen
 import { ReactNode } from "react";
 import { BackButton } from "./components/BackButton/backButton";
 import {
-  DetailViewHero as DetailViewHeroLayout,
   DetailViewHeroHeadline,
+  DetailViewHero as DetailViewHeroLayout,
   HeroHeader,
   HeroTitle,
   Titles,
