@@ -17,7 +17,7 @@ export const Questions = (): JSX.Element => {
           What is the plan?
         </MAccordionSummary>
         <MAccordionDetails>
-          BRC-Analytics is very new. Out plan is (1) establish access to
+          BRC Analytics is very new. Out plan is (1) establish access to
           official versions of VEuPathDB’s 785 genomes; (2) develop analytical
           workflows for common analyses such as transcriptomics, variation,
           assembly, and tightly integrate them with the data; (3) ingest and
@@ -50,10 +50,10 @@ export const Questions = (): JSX.Element => {
       </StyledAccordion>
       <StyledAccordion component={DXRoundedPaper}>
         <MAccordionSummary expandIcon={expandIcon}>
-          How does brc-analytics work?
+          How does BRC Analytics work?
         </MAccordionSummary>
         <MAccordionDetails>
-          BRC-Analytics will provide access to genomic data and an analytical
+          BRC Analytics will provide access to genomic data and an analytical
           environment. The data will be based on the official releases provided
           by NCBI Datasets and deployed through the UCSC Genome Browser. The
           analytics will be provided by the Galaxy system supported by powerful

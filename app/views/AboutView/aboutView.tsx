@@ -12,7 +12,7 @@ export const AboutView = (): JSX.Element => {
         head="About BRC-Analytics"
         subHead={
           <span>
-            BRC-analytics is a collaborative effort of four projects. These
+            BRC Analytics is a collaborative effort of four projects. These
             include: <Link label="Galaxy" url="https://galaxyproject.org" />{" "}
             (est. 2005), <Link label="HyPhy" url="https://hyphy.org" /> (est.
             2000),{" "}

@@ -44,7 +44,7 @@ export const Branding = (): JSX.Element => {
         />
       </SmallBrand>
       <FooterText color="ink.light" variant={TEXT_BODY_SMALL_400}>
-        BRC-Analytics is a part of the Bioinformatics Resource Centers for
+        BRC Analytics is a part of the Bioinformatics Resource Centers for
         Infectious Diseases Program developed and funded by{" "}
         <Link
           label="NIAID"
