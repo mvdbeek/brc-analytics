@@ -9,7 +9,7 @@ export const SectionAnalytics = (): JSX.Element => {
         <Headline>
           <SectionTitle>What is BRC-Analytics?</SectionTitle>
           <SectionSubtitle>
-            BRC-Analytics consists of three components spread over four
+            BRC Analytics consists of three components spread over four
             resources: public computational infrastructure (TACC), authoritative
             data repositories and browsers (NCBI and UCSC) and an analytical
             platform (Galaxy).

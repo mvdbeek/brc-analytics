@@ -58,7 +58,7 @@ export const SectionRoadmap = (): JSX.Element => {
               Ensure tight integration between data and analysis components
             </CategorySubTitle>
             <CategoryText>
-              To increase usability of brc-analytics a substantial amount of
+              To increase usability of BRC Analytics a substantial amount of
               engineering will be devoted to making the interplay between data
               and analytics components as seamless as possible. For example,
               selecting a genome during the search phase will automatically
