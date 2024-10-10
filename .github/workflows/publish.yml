@@ -3,7 +3,7 @@ name: Deploy to S3 and CloudFront
 on:
   push:
     branches:
-      - main
+      # - main  # todo, consolidate auth approach and merge dev-deploy into this.
       - production
 
 jobs:
