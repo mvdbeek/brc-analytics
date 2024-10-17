@@ -138,7 +138,7 @@ export const buildGenomeDetails = (
     "Assembly Version ID",
     C.CopyText({
       children: genome.genomeVersionAssemblyId,
-      text: genome.genomeVersionAssemblyId,
+      value: genome.genomeVersionAssemblyId,
     })
   );
   keyValuePairs.set("VeUPathDB Project", genome.vEuPathDbProject);
