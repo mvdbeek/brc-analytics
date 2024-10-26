@@ -25,6 +25,15 @@ export const mainColumn: ComponentsConfig = [
         component: C.AnalysisMethod,
         viewBuilder: (r) =>
           V.buildGenomeAnalysisMethod(r, {
+            analysisMethod: ANALYSIS_METHOD.TRANSCRIPTOMICS,
+            text: MDX.Transcriptomics({}),
+            title: "Transcriptomics",
+          }),
+      },
+      {
+        component: C.AnalysisMethod,
+        viewBuilder: (r) =>
+          V.buildGenomeAnalysisMethod(r, {
             analysisMethod: ANALYSIS_METHOD.REGULATION,
             text: MDX.Regulation({}),
             title: "Regulation",
@@ -52,15 +61,6 @@ export const mainColumn: ComponentsConfig = [
             analysisMethod: ANALYSIS_METHOD.VARIANT_CALLING,
             text: MDX.VariantCalling({}),
             title: "Variant calling",
-          }),
-      },
-      {
-        component: C.AnalysisMethod,
-        viewBuilder: (r) =>
-          V.buildGenomeAnalysisMethod(r, {
-            analysisMethod: ANALYSIS_METHOD.TRANSCRIPTOMICS,
-            text: MDX.Transcriptomics({}),
-            title: "Transcriptomics",
           }),
       },
       {

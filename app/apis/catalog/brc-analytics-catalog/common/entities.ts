@@ -36,5 +36,6 @@ export interface EntitiesResponsePagination {
 }
 
 export enum WORKFLOW_ID {
-  REGULATION = "https://dockstore.org/api/ga4gh/trs/v2/tools/#workflow/github.com/iwc-workflows/chipseq-pe/main/versions/v0.12",
+  REGULATION = "https://dockstore.org/api/ga4gh/trs/v2/tools/#workflow/github.com/iwc-workflows/ChIPseq_PE/main",
+  TRANSCRIPTOMICS = "https://dockstore.org/api/ga4gh/trs/v2/tools/#workflow/github.com/iwc-workflows/rnaseq-pe/main",
 }
