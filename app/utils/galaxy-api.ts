@@ -8,7 +8,9 @@ interface WorkflowLandingsBody {
   workflow_target_type: "trs_url";
 }
 
-type WorkflowLandingsBodyRequestState = { reference_genome: string };
+type WorkflowLandingsBodyRequestState = {
+  [key: string]: { [key: string]: string } | string;
+};
 
 interface WorkflowLanding {
   uuid: string;
@@ -24,15 +26,21 @@ const WORKFLOW_LANDING_URL_PREFIX =
  * Get the URL of the workflow landing page for the given genome workflow.
  * @param workflowId - Value for the `workflow_id` parameter sent to the API.
  * @param referenceGenome - Genome version/assembly ID.
+ * @param geneModelUrl - URL for gene model parameter sent to the API.
  * @returns workflow landing URL.
  */
 export async function getWorkflowLandingUrl(
   workflowId: WORKFLOW_ID,
-  referenceGenome: string
+  referenceGenome: string,
+  geneModelUrl: string
 ): Promise<string> {
   const body: WorkflowLandingsBody = {
     public: true,
-    request_state: getWorkflowLandingsRequestState(workflowId, referenceGenome),
+    request_state: getWorkflowLandingsRequestState(
+      workflowId,
+      referenceGenome,
+      geneModelUrl
+    ),
     workflow_id: workflowId,
     workflow_target_type: "trs_url",
   };
@@ -50,11 +58,18 @@ export async function getWorkflowLandingUrl(
  * Get the appropriate `request_state` object for the given workflow ID and reference genome.
  * @param workflowId - Workflow ID.
  * @param referenceGenome - Reference genome.
+ * @param geneModelUrl - URL for gene model parameter.
  * @returns `request_state` value for the workflow landings request body.
  */
 function getWorkflowLandingsRequestState(
   workflowId: WORKFLOW_ID,
-  referenceGenome: string
+  referenceGenome: string,
+  geneModelUrl: string
 ): WorkflowLandingsBodyRequestState {
+  if (workflowId === WORKFLOW_ID.VARIANT_CALLING && geneModelUrl) {
+    return {
+      "Annotation GTF": { ext: "gtf.gz", src: "url", url: geneModelUrl },
+    };
+  }
   return { reference_genome: referenceGenome };
 }

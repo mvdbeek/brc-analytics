@@ -19,11 +19,13 @@ import {
 
 export interface AnalysisMethodProps extends CardProps {
   analysisMethod: ANALYSIS_METHOD;
+  geneModelUrl: string;
   genomeVersionAssemblyId: string;
 }
 
 export const AnalysisMethod = ({
   analysisMethod,
+  geneModelUrl,
   genomeVersionAssemblyId,
   Paper = FluidPaper,
   text,
@@ -45,7 +47,11 @@ export const AnalysisMethod = ({
             const url =
               landingUrl ??
               (await run(
-                getWorkflowLandingUrl(workflowId, genomeVersionAssemblyId)
+                getWorkflowLandingUrl(
+                  workflowId,
+                  genomeVersionAssemblyId,
+                  geneModelUrl
+                )
               ));
             window.open(
               url,

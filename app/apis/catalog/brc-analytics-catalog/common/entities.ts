@@ -12,6 +12,7 @@ export type BRCCatalog = BRCDataCatalogGenome;
 export interface BRCDataCatalogGenome {
   chromosomes: number;
   contigs: number;
+  geneModelUrl: string;
   genomeVersionAssemblyId: string;
   ncbiTaxonomyId: string;
   organism: string;
@@ -38,4 +39,5 @@ export interface EntitiesResponsePagination {
 export enum WORKFLOW_ID {
   REGULATION = "https://dockstore.org/api/ga4gh/trs/v2/tools/#workflow/github.com/iwc-workflows/chipseq-pe/main/versions/v0.12",
   TRANSCRIPTOMICS = "https://dockstore.org/api/ga4gh/trs/v2/tools/#workflow/github.com/iwc-workflows/rnaseq-pe/main/versions/v0.9",
+  VARIANT_CALLING = "https://dockstore.org/api/ga4gh/trs/v2/tools/#workflow/github.com/iwc-workflows/haploid-variant-calling-wgs-pe/main/versions/v0.1",
 }

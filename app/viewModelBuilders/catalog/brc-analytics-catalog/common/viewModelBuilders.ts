@@ -74,10 +74,13 @@ export const buildGenomeAnalysisMethod = (
     analysisMethod,
     text,
     title,
-  }: Partial<CardProps> & { analysisMethod: ANALYSIS_METHOD }
+  }: Partial<CardProps> & {
+    analysisMethod: ANALYSIS_METHOD;
+  }
 ): ComponentProps<typeof C.AnalysisMethod> => {
   return {
     analysisMethod,
+    geneModelUrl: genome.geneModelUrl,
     genomeVersionAssemblyId: genome.genomeVersionAssemblyId,
     text,
     title,
