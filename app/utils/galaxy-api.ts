@@ -54,6 +54,16 @@ export async function getWorkflowLandingUrl(
   return `${WORKFLOW_LANDING_URL_PREFIX}${encodeURIComponent(id)}?public=true`;
 }
 
+function buildFastaUrl(identifier: string): string {
+  const baseUrl = "https://hgdownload.soe.ucsc.edu/hubs/";
+  const parts = identifier.split("_");
+  const formattedPath = `${parts[0]}/${parts[1].slice(0, 3)}/${parts[1].slice(
+    3,
+    6
+  )}/${parts[1].slice(6, 9)}/${identifier}/${identifier}.fa.gz`;
+  return `${baseUrl}${formattedPath}`;
+}
+
 /**
  * Get the appropriate `request_state` object for the given workflow ID and reference genome.
  * @param workflowId - Workflow ID.
@@ -69,6 +79,11 @@ function getWorkflowLandingsRequestState(
   if (workflowId === WORKFLOW_ID.VARIANT_CALLING && geneModelUrl) {
     return {
       "Annotation GTF": { ext: "gtf.gz", src: "url", url: geneModelUrl },
+      "Genome fasta": {
+        ext: "fasta.gz",
+        src: "url",
+        url: buildFastaUrl(referenceGenome),
+      },
     };
   }
   return { reference_genome: referenceGenome };
