@@ -25,6 +25,15 @@ export const mainColumn: ComponentsConfig = [
         component: C.AnalysisMethod,
         viewBuilder: (r) =>
           V.buildGenomeAnalysisMethod(r, {
+            analysisMethod: ANALYSIS_METHOD.VARIANT_CALLING,
+            text: MDX.VariantCalling({}),
+            title: "Variant calling",
+          }),
+      },
+      {
+        component: C.AnalysisMethod,
+        viewBuilder: (r) =>
+          V.buildGenomeAnalysisMethod(r, {
             analysisMethod: ANALYSIS_METHOD.TRANSCRIPTOMICS,
             text: MDX.Transcriptomics({}),
             title: "Transcriptomics",
@@ -53,15 +62,6 @@ export const mainColumn: ComponentsConfig = [
             "We are in the process of adopting these workflows to the needs of the pathogen community.",
           variant: "banner",
         },
-      },
-      {
-        component: C.AnalysisMethod,
-        viewBuilder: (r) =>
-          V.buildGenomeAnalysisMethod(r, {
-            analysisMethod: ANALYSIS_METHOD.VARIANT_CALLING,
-            text: MDX.VariantCalling({}),
-            title: "Variant calling",
-          }),
       },
       {
         component: C.AnalysisMethod,
