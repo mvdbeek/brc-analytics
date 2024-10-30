@@ -59,7 +59,7 @@ export const mainColumn: ComponentsConfig = [
         props: {
           severity: "info",
           title:
-            "We are in the process of adopting these workflows to the needs of the pathogen community.",
+            "We are in the process of adapting these workflows to the needs of the pathogen community.",
           variant: "banner",
         },
       },
