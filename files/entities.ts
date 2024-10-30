@@ -4,6 +4,7 @@ export interface SourceGenome {
   comName: string;
   Contigs: string;
   genBank: string;
+  geneModelUrl: string;
   "Genome Source": string;
   "Genome Version/Assembly ID": string;
   identical: string;
