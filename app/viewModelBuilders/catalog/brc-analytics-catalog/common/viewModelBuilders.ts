@@ -133,15 +133,15 @@ export const buildGcPercent = (
 };
 
 /**
- * Build props for the taxon cell.
+ * Build props for the species cell.
  * @param genome - Genome entity.
  * @returns Props to be used for the cell.
  */
-export const buildGenomeTaxon = (
+export const buildGenomeSpecies = (
   genome: BRCDataCatalogGenome
 ): ComponentProps<typeof C.BasicCell> => {
   return {
-    value: genome.taxon,
+    value: genome.species,
   };
 };
 
@@ -185,15 +185,29 @@ export const buildLevel = (
 };
 
 /**
- * Build props for the taxon cell.
+ * Build props for the assembly taxonomy IDs cell.
  * @param organism - Organism entity.
  * @returns Props to be used for the cell.
  */
-export const buildOrganismTaxon = (
+export const buildOrganismAssemblyTaxonomyIds = (
+  organism: BRCDataCatalogOrganism
+): ComponentProps<typeof C.NTagCell> => {
+  return {
+    label: "taxonomy IDs",
+    values: organism.assemblyTaxonomyIds,
+  };
+};
+
+/**
+ * Build props for the species cell.
+ * @param organism - Organism entity.
+ * @returns Props to be used for the cell.
+ */
+export const buildOrganismSpecies = (
   organism: BRCDataCatalogOrganism
 ): ComponentProps<typeof C.Link> => {
   return {
-    label: organism.taxon,
+    label: organism.species,
     url: `${ROUTES.ORGANISMS}/${encodeURIComponent(getOrganismId(organism))}`,
   };
 };
@@ -338,7 +352,7 @@ export const buildGenomeDetails = (
   keyValuePairs.set(
     "Taxon",
     C.Link({
-      label: genome.taxon,
+      label: genome.species,
       url: `https://www.ncbi.nlm.nih.gov/datasets/taxonomy/${encodeURIComponent(
         genome.ncbiTaxonomyId
       )}/`,
@@ -387,7 +401,7 @@ export function buildOrganismGenomesTable(
   return {
     columns: buildOrganismGenomesTableColumns(),
     gridTemplateColumns:
-      "auto minmax(164px, 1fr) minmax(240px, 1fr) minmax(180px, 0.5fr) minmax(100px, 0.5fr) minmax(100px, 0.5fr) repeat(2, minmax(142px, 0.5fr)) minmax(120px, 0.5fr) minmax(80px, 0.5fr) minmax(142px, 0.5fr) repeat(3, minmax(80px, 0.5fr)) minmax(142px, 0.5fr)",
+      "auto repeat(2, minmax(164px, 1fr)) minmax(100px, 0.5fr) minmax(100px, 0.5fr) minmax(80px, 0.5fr) repeat(2, minmax(142px, 0.5fr)) minmax(120px, 0.5fr) minmax(80px, 0.5fr) minmax(120px, 0.5fr) repeat(3, minmax(80px, 0.5fr)) minmax(142px, 0.5fr)",
     items: organism.genomes,
     noResultsTitle: "No Assemblies",
     tableOptions: {
@@ -416,9 +430,9 @@ function buildOrganismGenomesTableColumns(): ColumnDef<BRCDataCatalogGenome>[] {
       header: BRC_DATA_CATALOG_CATEGORY_LABEL.ACCESSION,
     },
     {
-      accessorKey: BRC_DATA_CATALOG_CATEGORY_KEY.TAXON,
-      cell: ({ row }) => C.BasicCell(buildGenomeTaxon(row.original)),
-      header: BRC_DATA_CATALOG_CATEGORY_LABEL.TAXON,
+      accessorKey: BRC_DATA_CATALOG_CATEGORY_KEY.SPECIES,
+      cell: ({ row }) => C.BasicCell(buildGenomeSpecies(row.original)),
+      header: BRC_DATA_CATALOG_CATEGORY_LABEL.SPECIES,
     },
     {
       accessorKey: BRC_DATA_CATALOG_CATEGORY_KEY.STRAIN,
@@ -493,7 +507,7 @@ function getGenomeEntityChooseAnalysisMethodBreadcrumbs(
 ): Breadcrumb[] {
   return [
     { path: ROUTES.GENOMES, text: "Assemblies" },
-    { path: "", text: `${genome.taxon}` },
+    { path: "", text: `${genome.species}` },
     { path: "", text: "Choose Analysis Methods" },
   ];
 }
@@ -508,7 +522,7 @@ function getOrganismEntityAssembliesBreadcrumbs(
 ): Breadcrumb[] {
   return [
     { path: ROUTES.ORGANISMS, text: "Organisms" },
-    { path: "", text: `${organism.taxon}` },
+    { path: "", text: `${organism.species}` },
     { path: "", text: "Assemblies" },
   ];
 }
