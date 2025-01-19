@@ -375,18 +375,16 @@ export const buildGenomeDetails = (
 };
 
 /**
- * Build props for the organism DetailViewHero component.
+ * Build props for the organism BackPageHero component.
  * @param organism - Organism entity.
- * @returns Props to be used for the DetailViewHero component.
+ * @returns Props to be used for the BackPageHero component.
  */
-export const buildOrganismAssembliesDetailViewHero = (
+export const buildOrganismAssembliesHero = (
   organism: BRCDataCatalogOrganism
-): ComponentProps<typeof C.DetailViewHero> => {
+): ComponentProps<typeof C.BackPageHero> => {
   return {
-    breadcrumbs: C.Breadcrumbs({
-      breadcrumbs: getOrganismEntityAssembliesBreadcrumbs(organism),
-    }),
-    title: "Assemblies",
+    breadcrumbs: getOrganismEntityAssembliesBreadcrumbs(organism),
+    title: organism.species,
   };
 };
 
@@ -401,7 +399,7 @@ export function buildOrganismGenomesTable(
   return {
     columns: buildOrganismGenomesTableColumns(),
     gridTemplateColumns:
-      "auto repeat(2, minmax(164px, 1fr)) minmax(100px, 0.5fr) minmax(100px, 0.5fr) minmax(80px, 0.5fr) repeat(2, minmax(142px, 0.5fr)) minmax(120px, 0.5fr) minmax(80px, 0.5fr) minmax(120px, 0.5fr) repeat(3, minmax(80px, 0.5fr)) minmax(142px, 0.5fr)",
+      "auto minmax(164px, 1fr) minmax(100px, 0.5fr) minmax(100px, 0.5fr) minmax(80px, 0.5fr) repeat(2, minmax(142px, 0.5fr)) minmax(120px, 0.5fr) minmax(80px, 0.5fr) minmax(120px, 0.5fr) repeat(3, minmax(80px, 0.5fr)) minmax(142px, 0.5fr)",
     items: organism.genomes,
     noResultsTitle: "No Assemblies",
     tableOptions: {
@@ -428,11 +426,6 @@ function buildOrganismGenomesTableColumns(): ColumnDef<BRCDataCatalogGenome>[] {
       accessorKey: BRC_DATA_CATALOG_CATEGORY_KEY.ACCESSION,
       cell: ({ row }) => C.BasicCell(buildAccession(row.original)),
       header: BRC_DATA_CATALOG_CATEGORY_LABEL.ACCESSION,
-    },
-    {
-      accessorKey: BRC_DATA_CATALOG_CATEGORY_KEY.SPECIES,
-      cell: ({ row }) => C.BasicCell(buildGenomeSpecies(row.original)),
-      header: BRC_DATA_CATALOG_CATEGORY_LABEL.SPECIES,
     },
     {
       accessorKey: BRC_DATA_CATALOG_CATEGORY_KEY.STRAIN,
