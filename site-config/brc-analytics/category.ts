@@ -15,6 +15,7 @@ export const BRC_DATA_CATALOG_CATEGORY_KEY = {
   SCAFFOLD_N50: "scaffoldN50",
   SPECIES: "species",
   STRAIN: "strain",
+  TAXONOMIC_GROUP: "taxonomicGroup",
   TAXONOMY_ID: "ncbiTaxonomyId",
   UCSC_BROWSER_URL: "ucscBrowserUrl",
 };
@@ -36,6 +37,7 @@ export const BRC_DATA_CATALOG_CATEGORY_LABEL = {
   SCAFFOLD_N50: "Scaffold N50",
   SPECIES: "Species",
   STRAIN: "Strain",
+  TAXONOMIC_GROUP: "Taxonomic Group",
   TAXONOMY_ID: "Taxonomy ID",
   UCSC_BROWSER_URL: "UCSC Browser",
 };

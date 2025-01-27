@@ -41,6 +41,15 @@ export const genomeEntityConfig: BRCEntityConfig<BRCDataCatalogGenome> = {
             label: BRC_DATA_CATALOG_CATEGORY_LABEL.TAXONOMY_ID,
           },
           {
+            key: BRC_DATA_CATALOG_CATEGORY_KEY.TAXONOMIC_GROUP,
+            label: BRC_DATA_CATALOG_CATEGORY_LABEL.TAXONOMIC_GROUP,
+          },
+        ],
+        label: "Organism",
+      },
+      {
+        categoryConfigs: [
+          {
             key: BRC_DATA_CATALOG_CATEGORY_KEY.ACCESSION,
             label: BRC_DATA_CATALOG_CATEGORY_LABEL.ACCESSION,
           },
@@ -61,6 +70,7 @@ export const genomeEntityConfig: BRCEntityConfig<BRCDataCatalogGenome> = {
             label: BRC_DATA_CATALOG_CATEGORY_LABEL.ANNOTATION_STATUS,
           },
         ],
+        label: "Assembly",
       },
     ],
     key: "assemblies",
@@ -131,6 +141,15 @@ export const genomeEntityConfig: BRCEntityConfig<BRCDataCatalogGenome> = {
         header: BRC_DATA_CATALOG_CATEGORY_LABEL.TAXONOMY_ID,
         id: BRC_DATA_CATALOG_CATEGORY_KEY.TAXONOMY_ID,
         width: { max: "0.5fr", min: "100px" },
+      },
+      {
+        componentConfig: {
+          component: C.NTagCell,
+          viewBuilder: V.buildTaxonomicGroup,
+        } as ComponentConfig<typeof C.NTagCell, BRCDataCatalogGenome>,
+        header: BRC_DATA_CATALOG_CATEGORY_LABEL.TAXONOMIC_GROUP,
+        id: BRC_DATA_CATALOG_CATEGORY_KEY.TAXONOMIC_GROUP,
+        width: { max: "0.5fr", min: "142px" },
       },
       {
         componentConfig: {

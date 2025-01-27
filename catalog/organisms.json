@@ -22,11 +22,17 @@
         "species": "Monkeypox virus",
         "speciesTaxonomyId": "10244",
         "strain": "Zaire-96-I-16",
+        "taxonomicGroup": [
+          "Viruses"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000857045.1"
       }
     ],
     "ncbiTaxonomyId": "10244",
-    "species": "Monkeypox virus"
+    "species": "Monkeypox virus",
+    "taxonomicGroup": [
+      "Viruses"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -51,11 +57,17 @@
         "species": "Mycobacterium tuberculosis",
         "speciesTaxonomyId": "1773",
         "strain": "H37Rv",
+        "taxonomicGroup": [
+          "Bacteria"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000195955.2"
       }
     ],
     "ncbiTaxonomyId": "1773",
-    "species": "Mycobacterium tuberculosis"
+    "species": "Mycobacterium tuberculosis",
+    "taxonomicGroup": [
+      "Bacteria"
+    ]
   },
   {
     "assemblyCount": 2,
@@ -80,6 +92,9 @@
         "species": "Coccidioides posadasii",
         "speciesTaxonomyId": "199306",
         "strain": "Silveira",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_000170175.2"
       },
       {
@@ -99,11 +114,17 @@
         "species": "Coccidioides posadasii",
         "speciesTaxonomyId": "199306",
         "strain": "Silveira",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_018416015.2"
       }
     ],
     "ncbiTaxonomyId": "199306",
-    "species": "Coccidioides posadasii"
+    "species": "Coccidioides posadasii",
+    "taxonomicGroup": [
+      "Fungi"
+    ]
   },
   {
     "assemblyCount": 2,
@@ -129,6 +150,9 @@
         "species": "Cryptococcus neoformans",
         "speciesTaxonomyId": "5207",
         "strain": "H99",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000149245.1"
       },
       {
@@ -148,11 +172,17 @@
         "species": "Cryptococcus neoformans",
         "speciesTaxonomyId": "5207",
         "strain": "JEC21",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000091045.1"
       }
     ],
     "ncbiTaxonomyId": "5207",
-    "species": "Cryptococcus neoformans"
+    "species": "Cryptococcus neoformans",
+    "taxonomicGroup": [
+      "Fungi"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -177,11 +207,17 @@
         "species": "Candida albicans",
         "speciesTaxonomyId": "5476",
         "strain": "SC5314",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000182965.3"
       }
     ],
     "ncbiTaxonomyId": "5476",
-    "species": "Candida albicans"
+    "species": "Candida albicans",
+    "taxonomicGroup": [
+      "Fungi"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -206,11 +242,17 @@
         "species": "Coccidioides immitis",
         "speciesTaxonomyId": "5501",
         "strain": "RS",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000149335.2"
       }
     ],
     "ncbiTaxonomyId": "5501",
-    "species": "Coccidioides immitis"
+    "species": "Coccidioides immitis",
+    "taxonomicGroup": [
+      "Fungi"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -235,11 +277,17 @@
         "species": "Leishmania braziliensis",
         "speciesTaxonomyId": "5660",
         "strain": "MHOM/BR/75/M2904",
+        "taxonomicGroup": [
+          "Kinetoplastea"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002845.2"
       }
     ],
     "ncbiTaxonomyId": "5660",
-    "species": "Leishmania braziliensis"
+    "species": "Leishmania braziliensis",
+    "taxonomicGroup": [
+      "Kinetoplastea"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -264,11 +312,17 @@
         "species": "Leishmania donovani",
         "speciesTaxonomyId": "5661",
         "strain": "BPK282A1",
+        "taxonomicGroup": [
+          "Kinetoplastea"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000227135.1"
       }
     ],
     "ncbiTaxonomyId": "5661",
-    "species": "Leishmania donovani"
+    "species": "Leishmania donovani",
+    "taxonomicGroup": [
+      "Kinetoplastea"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -293,11 +347,17 @@
         "species": "Leishmania major",
         "speciesTaxonomyId": "5664",
         "strain": "Friedlin",
+        "taxonomicGroup": [
+          "Kinetoplastea"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002725.2"
       }
     ],
     "ncbiTaxonomyId": "5664",
-    "species": "Leishmania major"
+    "species": "Leishmania major",
+    "taxonomicGroup": [
+      "Kinetoplastea"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -322,11 +382,17 @@
         "species": "Trypanosoma brucei",
         "speciesTaxonomyId": "5691",
         "strain": null,
+        "taxonomicGroup": [
+          "Kinetoplastea"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002445.2"
       }
     ],
     "ncbiTaxonomyId": "5691",
-    "species": "Trypanosoma brucei"
+    "species": "Trypanosoma brucei",
+    "taxonomicGroup": [
+      "Kinetoplastea"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -351,11 +417,17 @@
         "species": "Trypanosoma cruzi",
         "speciesTaxonomyId": "5693",
         "strain": "CL Brener",
+        "taxonomicGroup": [
+          "Kinetoplastea"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000209065.1"
       }
     ],
     "ncbiTaxonomyId": "5693",
-    "species": "Trypanosoma cruzi"
+    "species": "Trypanosoma cruzi",
+    "taxonomicGroup": [
+      "Kinetoplastea"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -380,11 +452,17 @@
         "species": "Toxoplasma gondii",
         "speciesTaxonomyId": "5811",
         "strain": "ME49",
+        "taxonomicGroup": [
+          "Apicomplexa"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000006565.2"
       }
     ],
     "ncbiTaxonomyId": "5811",
-    "species": "Toxoplasma gondii"
+    "species": "Toxoplasma gondii",
+    "taxonomicGroup": [
+      "Apicomplexa"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -409,11 +487,17 @@
         "species": "Plasmodium falciparum",
         "speciesTaxonomyId": "5833",
         "strain": null,
+        "taxonomicGroup": [
+          "Apicomplexa"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002765.6"
       }
     ],
     "ncbiTaxonomyId": "5833",
-    "species": "Plasmodium falciparum"
+    "species": "Plasmodium falciparum",
+    "taxonomicGroup": [
+      "Apicomplexa"
+    ]
   },
   {
     "assemblyCount": 2,
@@ -438,6 +522,9 @@
         "species": "Plasmodium vivax",
         "speciesTaxonomyId": "5855",
         "strain": null,
+        "taxonomicGroup": [
+          "Apicomplexa"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCA_900093555.2"
       },
       {
@@ -457,11 +544,17 @@
         "species": "Plasmodium vivax",
         "speciesTaxonomyId": "5855",
         "strain": "Salvador I",
+        "taxonomicGroup": [
+          "Apicomplexa"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002415.2"
       }
     ],
     "ncbiTaxonomyId": "5855",
-    "species": "Plasmodium vivax"
+    "species": "Plasmodium vivax",
+    "taxonomicGroup": [
+      "Apicomplexa"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -486,11 +579,17 @@
         "species": "Plasmodium vinckei",
         "speciesTaxonomyId": "5860",
         "strain": null,
+        "taxonomicGroup": [
+          "Apicomplexa"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900681995.1"
       }
     ],
     "ncbiTaxonomyId": "5860",
-    "species": "Plasmodium vinckei"
+    "species": "Plasmodium vinckei",
+    "taxonomicGroup": [
+      "Apicomplexa"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -515,11 +614,17 @@
         "species": "Plasmodium yoelii",
         "speciesTaxonomyId": "5861",
         "strain": "17X",
+        "taxonomicGroup": [
+          "Apicomplexa"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900002385.2"
       }
     ],
     "ncbiTaxonomyId": "5861",
-    "species": "Plasmodium yoelii"
+    "species": "Plasmodium yoelii",
+    "taxonomicGroup": [
+      "Apicomplexa"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -544,11 +649,17 @@
         "species": "Severe acute respiratory syndrome-related coronavirus",
         "speciesTaxonomyId": "694009",
         "strain": null,
+        "taxonomicGroup": [
+          "Viruses"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_009858895.2"
       }
     ],
     "ncbiTaxonomyId": "694009",
-    "species": "Severe acute respiratory syndrome-related coronavirus"
+    "species": "Severe acute respiratory syndrome-related coronavirus",
+    "taxonomicGroup": [
+      "Viruses"
+    ]
   },
   {
     "assemblyCount": 2,
@@ -574,6 +685,9 @@
         "species": "Anopheles gambiae",
         "speciesTaxonomyId": "7165",
         "strain": "PEST",
+        "taxonomicGroup": [
+          "Insecta"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000005575.2"
       },
       {
@@ -593,11 +707,17 @@
         "species": "Anopheles gambiae",
         "speciesTaxonomyId": "7165",
         "strain": null,
+        "taxonomicGroup": [
+          "Insecta"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_943734735.2"
       }
     ],
     "ncbiTaxonomyId": "7165",
-    "species": "Anopheles gambiae"
+    "species": "Anopheles gambiae",
+    "taxonomicGroup": [
+      "Insecta"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -622,11 +742,17 @@
         "species": "Culex pipiens",
         "speciesTaxonomyId": "7175",
         "strain": null,
+        "taxonomicGroup": [
+          "Insecta"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_016801865.2"
       }
     ],
     "ncbiTaxonomyId": "7175",
-    "species": "Culex pipiens"
+    "species": "Culex pipiens",
+    "taxonomicGroup": [
+      "Insecta"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -651,11 +777,17 @@
         "species": "Culex quinquefasciatus",
         "speciesTaxonomyId": "7176",
         "strain": "JHB",
+        "taxonomicGroup": [
+          "Insecta"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_015732765.1"
       }
     ],
     "ncbiTaxonomyId": "7176",
-    "species": "Culex quinquefasciatus"
+    "species": "Culex quinquefasciatus",
+    "taxonomicGroup": [
+      "Insecta"
+    ]
   },
   {
     "assemblyCount": 1,
@@ -680,10 +812,16 @@
         "species": "Aspergillus fumigatus",
         "speciesTaxonomyId": "746128",
         "strain": "Af293",
+        "taxonomicGroup": [
+          "Fungi"
+        ],
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002655.1"
       }
     ],
     "ncbiTaxonomyId": "746128",
-    "species": "Aspergillus fumigatus"
+    "species": "Aspergillus fumigatus",
+    "taxonomicGroup": [
+      "Fungi"
+    ]
   }
 ]
