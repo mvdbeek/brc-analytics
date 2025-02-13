@@ -44,9 +44,9 @@ export interface EntitiesResponsePagination {
 }
 
 export interface WorkflowCategory {
+  category: string;
   description: string;
   name: string;
-  type: string;
   workflows: Workflow[];
 }
 
@@ -58,6 +58,8 @@ export interface Workflow {
 }
 
 export enum WORKFLOW_PLOIDY {
-  ANY = "any",
-  HAPLOID = "haploid",
+  ANY = "ANY",
+  DIPLOID = "DIPLOID",
+  HAPLOID = "HAPLOID",
+  POLYPLOID = "POLYPLOID",
 }

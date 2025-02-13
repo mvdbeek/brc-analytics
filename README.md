@@ -16,6 +16,8 @@ Run `npm run build:local` to build. The built app can be run using `npm start`, 
 
 ## Building the data source files
 
+Using Python version 3.12.4 is recommended.
+
 Create a Python virtual environment and install requirements:
 
 ```shell
@@ -55,3 +57,11 @@ the `# Anopheles gambiae` comment:
 ```yaml
 - accession: XXX_000000000.0
 ```
+
+## Overview of automated checks on catalog content
+
+The `run-checks` GitHub workflow performs checks to ensure that the catalog data and schemas are well-formed; this is done by:
+
+- Linting the schemas via `linkml-lint`.
+- Converting the schemas to Python, to catch any errors that occur.
+- Validating the catalog source files against their corresponding schemas.
