@@ -1,3 +1,5 @@
+import { ORGANISM_PLOIDY, WORKFLOW_PLOIDY } from "./schema-entities";
+
 export type BRCCatalog = BRCDataCatalogGenome;
 
 export interface BRCDataCatalogGenome {
@@ -11,6 +13,7 @@ export interface BRCDataCatalogGenome {
   length: number;
   level: string;
   ncbiTaxonomyId: string;
+  ploidy: ORGANISM_PLOIDY;
   scaffoldCount: number | null;
   scaffoldL50: number | null;
   scaffoldN50: number | null;
@@ -55,11 +58,4 @@ export interface Workflow {
   trsId: string;
   workflowDescription: string;
   workflowName: string;
-}
-
-export enum WORKFLOW_PLOIDY {
-  ANY = "ANY",
-  DIPLOID = "DIPLOID",
-  HAPLOID = "HAPLOID",
-  POLYPLOID = "POLYPLOID",
 }
