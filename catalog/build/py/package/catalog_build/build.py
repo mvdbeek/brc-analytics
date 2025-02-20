@@ -53,19 +53,29 @@ def get_taxonomic_group_sets(lineage, taxonomic_group_sets):
   return {field: ",".join(get_taxonomic_groups(lineage, taxonomic_groups)) for field, taxonomic_groups in taxonomic_group_sets.items()}
 
 
-def get_species_row(taxon_info, taxonomic_group_sets):
-  species_info = taxon_info["taxonomy"]["classification"]["species"]
+def get_taxonomic_level_key(level):
+  return f"taxonomicLevel{level[0].upper()}{level[1:]}"
+
+
+def get_species_row(taxon_info, taxonomic_group_sets, taxonomic_levels):
+  classification = taxon_info["taxonomy"]["classification"]
+  species_info = classification["species"]
+  taxonomic_level_fields = {get_taxonomic_level_key(level): classification.get(level, {}).get("name") for level in taxonomic_levels}
+  own_level = taxon_info["taxonomy"]["rank"].lower() if "rank" in taxon_info["taxonomy"] else None
+  if own_level in taxonomic_levels and own_level not in classification:
+    taxonomic_level_fields[get_taxonomic_level_key(own_level)] = taxon_info["taxonomy"]["current_scientific_name"]["name"]
   return {
     "taxonomyId": taxon_info["taxonomy"]["tax_id"],
     "species": species_info["name"],
     "speciesTaxonomyId": species_info["id"],
-    **get_taxonomic_group_sets(taxon_info["taxonomy"]["parents"], taxonomic_group_sets)
+    **get_taxonomic_group_sets(taxon_info["taxonomy"]["parents"], taxonomic_group_sets),
+    **taxonomic_level_fields
   }
 
 
-def get_species_df(taxonomy_ids, taxonomic_group_sets):
+def get_species_df(taxonomy_ids, taxonomic_group_sets, taxonomic_levels):
   species_info = get_paginated_ncbi_results(f"https://api.ncbi.nlm.nih.gov/datasets/v2/taxonomy/taxon/{",".join([str(id) for id in taxonomy_ids])}/dataset_report", "taxa")
-  return pd.DataFrame([get_species_row(info, taxonomic_group_sets) for info in species_info])
+  return pd.DataFrame([get_species_row(info, taxonomic_group_sets, taxonomic_levels) for info in species_info])
 
 
 def get_genome_row(genome_info):
@@ -325,7 +335,16 @@ def fetch_sra_metadata(srs_ids, batch_size=20):
   return data
 
 
-def build_files(assemblies_path, genomes_output_path, ucsc_assemblies_url, taxonomic_group_sets={}, do_gene_model_urls=True, extract_primary_data=False, primary_output_path=None ):
+def build_files(
+  assemblies_path,
+  genomes_output_path,
+  ucsc_assemblies_url,
+  taxonomic_levels_for_tree, 
+  taxonomic_group_sets={},
+  do_gene_model_urls=True,
+  extract_primary_data=False,
+  primary_output_path=None
+):
   print("Building files")
 
   source_list_df = read_assemblies(assemblies_path)
@@ -343,7 +362,7 @@ def build_files(assemblies_path, genomes_output_path, ucsc_assemblies_url, taxon
     primarydata_df = primarydata_df.merge(sra_metadata_df, how="left", left_on="sra_sample_acc", right_on="sra_sample_acc")
   report_missing_values_from("accessions", "found on NCBI", source_list_df["accession"], base_genomes_df["accession"])
 
-  species_df = get_species_df(base_genomes_df["taxonomyId"], taxonomic_group_sets)
+  species_df = get_species_df(base_genomes_df["taxonomyId"], taxonomic_group_sets, taxonomic_levels_for_tree)
 
   report_missing_values_from("species", "found on NCBI", base_genomes_df["taxonomyId"], species_df["taxonomyId"])
 
