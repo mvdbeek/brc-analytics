@@ -20,9 +20,8 @@
         "scaffoldCount": 1,
         "scaffoldL50": 1,
         "scaffoldN50": 196858,
-        "species": "Monkeypox virus",
         "speciesTaxonomyId": "10244",
-        "strain": "Zaire-96-I-16",
+        "strainName": "Zaire-96-I-16",
         "taxonomicGroup": [
           "Viruses"
         ],
@@ -33,7 +32,7 @@
         "taxonomicLevelOrder": "Chitovirales",
         "taxonomicLevelPhylum": "Nucleocytoviricota",
         "taxonomicLevelSpecies": "Monkeypox virus",
-        "taxonomicLevelStrain": "None",
+        "taxonomicLevelStrain": "Monkeypox virus strain Zaire-96-I-16",
         "taxonomicLevelSuperkingdom": "Viruses",
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000857045.1"
       }
@@ -50,7 +49,7 @@
     "taxonomicLevelPhylum": "Nucleocytoviricota",
     "taxonomicLevelSpecies": "Monkeypox virus",
     "taxonomicLevelStrain": [
-      "None"
+      "Monkeypox virus strain Zaire-96-I-16"
     ],
     "taxonomicLevelSuperkingdom": "Viruses"
   },
@@ -75,9 +74,8 @@
         "scaffoldCount": 1,
         "scaffoldL50": 1,
         "scaffoldN50": 4411532,
-        "species": "Mycobacterium tuberculosis",
         "speciesTaxonomyId": "1773",
-        "strain": "H37Rv",
+        "strainName": "H37Rv",
         "taxonomicGroup": [
           "Bacteria"
         ],
@@ -130,9 +128,8 @@
         "scaffoldCount": 54,
         "scaffoldL50": 8,
         "scaffoldN50": 1220107,
-        "species": "Coccidioides posadasii",
         "speciesTaxonomyId": "199306",
-        "strain": "Silveira",
+        "strainName": "Silveira",
         "taxonomicGroup": [
           "Fungi"
         ],
@@ -162,9 +159,8 @@
         "scaffoldCount": 9,
         "scaffoldL50": 2,
         "scaffoldN50": 8079863,
-        "species": "Coccidioides posadasii",
         "speciesTaxonomyId": "199306",
-        "strain": "Silveira",
+        "strainName": "Silveira",
         "taxonomicGroup": [
           "Fungi"
         ],
@@ -218,9 +214,8 @@
         "scaffoldCount": 14,
         "scaffoldL50": 6,
         "scaffoldN50": 1422463,
-        "species": "Cryptococcus neoformans",
         "speciesTaxonomyId": "5207",
-        "strain": "H99",
+        "strainName": "H99",
         "taxonomicGroup": [
           "Fungi"
         ],
@@ -250,9 +245,8 @@
         "scaffoldCount": 14,
         "scaffoldL50": 6,
         "scaffoldN50": 1438950,
-        "species": "Cryptococcus neoformans",
         "speciesTaxonomyId": "5207",
-        "strain": "JEC21",
+        "strainName": "JEC21",
         "taxonomicGroup": [
           "Fungi"
         ],
@@ -306,9 +300,8 @@
         "scaffoldCount": 8,
         "scaffoldL50": 3,
         "scaffoldN50": 2231883,
-        "species": "Candida albicans",
         "speciesTaxonomyId": "5476",
-        "strain": "SC5314",
+        "strainName": "SC5314",
         "taxonomicGroup": [
           "Fungi"
         ],
@@ -361,9 +354,8 @@
         "scaffoldCount": 6,
         "scaffoldL50": 3,
         "scaffoldN50": 4323945,
-        "species": "Coccidioides immitis",
         "speciesTaxonomyId": "5501",
-        "strain": "RS",
+        "strainName": "RS",
         "taxonomicGroup": [
           "Fungi"
         ],
@@ -416,9 +408,8 @@
         "scaffoldCount": 138,
         "scaffoldL50": 11,
         "scaffoldN50": 992961,
-        "species": "Leishmania braziliensis",
         "speciesTaxonomyId": "5660",
-        "strain": "MHOM/BR/75/M2904",
+        "strainName": "MHOM/BR/75/M2904",
         "taxonomicGroup": [
           "Kinetoplastea"
         ],
@@ -471,9 +462,8 @@
         "scaffoldCount": 36,
         "scaffoldL50": 11,
         "scaffoldN50": 1024085,
-        "species": "Leishmania donovani",
         "speciesTaxonomyId": "5661",
-        "strain": "BPK282A1",
+        "strainName": "BPK282A1",
         "taxonomicGroup": [
           "Kinetoplastea"
         ],
@@ -484,7 +474,7 @@
         "taxonomicLevelOrder": "Trypanosomatida",
         "taxonomicLevelPhylum": "Euglenozoa",
         "taxonomicLevelSpecies": "Leishmania donovani",
-        "taxonomicLevelStrain": "None",
+        "taxonomicLevelStrain": "Leishmania donovani strain BPK282A1",
         "taxonomicLevelSuperkingdom": "Eukaryota",
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000227135.1"
       }
@@ -501,7 +491,7 @@
     "taxonomicLevelPhylum": "Euglenozoa",
     "taxonomicLevelSpecies": "Leishmania donovani",
     "taxonomicLevelStrain": [
-      "None"
+      "Leishmania donovani strain BPK282A1"
     ],
     "taxonomicLevelSuperkingdom": "Eukaryota"
   },
@@ -526,9 +516,8 @@
         "scaffoldCount": 36,
         "scaffoldL50": 11,
         "scaffoldN50": 1091540,
-        "species": "Leishmania major",
         "speciesTaxonomyId": "5664",
-        "strain": "Friedlin",
+        "strainName": "Friedlin",
         "taxonomicGroup": [
           "Kinetoplastea"
         ],
@@ -581,9 +570,8 @@
         "scaffoldCount": 12,
         "scaffoldL50": 4,
         "scaffoldN50": 2481190,
-        "species": "Trypanosoma brucei",
         "speciesTaxonomyId": "5691",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Kinetoplastea"
         ],
@@ -636,9 +624,8 @@
         "scaffoldCount": 29495,
         "scaffoldL50": 212,
         "scaffoldN50": 88624,
-        "species": "Trypanosoma cruzi",
         "speciesTaxonomyId": "5693",
-        "strain": "CL Brener",
+        "strainName": "CL Brener",
         "taxonomicGroup": [
           "Kinetoplastea"
         ],
@@ -649,7 +636,7 @@
         "taxonomicLevelOrder": "Trypanosomatida",
         "taxonomicLevelPhylum": "Euglenozoa",
         "taxonomicLevelSpecies": "Trypanosoma cruzi",
-        "taxonomicLevelStrain": "None",
+        "taxonomicLevelStrain": "Trypanosoma cruzi strain CL Brener",
         "taxonomicLevelSuperkingdom": "Eukaryota",
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000209065.1"
       }
@@ -666,7 +653,7 @@
     "taxonomicLevelPhylum": "Euglenozoa",
     "taxonomicLevelSpecies": "Trypanosoma cruzi",
     "taxonomicLevelStrain": [
-      "None"
+      "Trypanosoma cruzi strain CL Brener"
     ],
     "taxonomicLevelSuperkingdom": "Eukaryota"
   },
@@ -691,9 +678,8 @@
         "scaffoldCount": 2276,
         "scaffoldL50": 6,
         "scaffoldN50": 4973582,
-        "species": "Toxoplasma gondii",
         "speciesTaxonomyId": "5811",
-        "strain": "ME49",
+        "strainName": "ME49",
         "taxonomicGroup": [
           "Apicomplexa"
         ],
@@ -746,9 +732,8 @@
         "scaffoldCount": 14,
         "scaffoldL50": 5,
         "scaffoldN50": 1687656,
-        "species": "Plasmodium falciparum",
         "speciesTaxonomyId": "5833",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Apicomplexa"
         ],
@@ -801,9 +786,8 @@
         "scaffoldCount": 242,
         "scaffoldL50": 6,
         "scaffoldN50": 1761288,
-        "species": "Plasmodium vivax",
         "speciesTaxonomyId": "5855",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Apicomplexa"
         ],
@@ -833,9 +817,8 @@
         "scaffoldCount": 2747,
         "scaffoldL50": 6,
         "scaffoldN50": 1678596,
-        "species": "Plasmodium vivax",
         "speciesTaxonomyId": "5855",
-        "strain": "Salvador I",
+        "strainName": "Salvador I",
         "taxonomicGroup": [
           "Apicomplexa"
         ],
@@ -846,7 +829,7 @@
         "taxonomicLevelOrder": "Haemosporida",
         "taxonomicLevelPhylum": "Apicomplexa",
         "taxonomicLevelSpecies": "Plasmodium vivax",
-        "taxonomicLevelStrain": "None",
+        "taxonomicLevelStrain": "Plasmodium vivax strain Salvador I",
         "taxonomicLevelSuperkingdom": "Eukaryota",
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_000002415.2"
       }
@@ -863,7 +846,8 @@
     "taxonomicLevelPhylum": "Apicomplexa",
     "taxonomicLevelSpecies": "Plasmodium vivax",
     "taxonomicLevelStrain": [
-      "None"
+      "None",
+      "Plasmodium vivax strain Salvador I"
     ],
     "taxonomicLevelSuperkingdom": "Eukaryota"
   },
@@ -888,9 +872,8 @@
         "scaffoldCount": 14,
         "scaffoldL50": 5,
         "scaffoldN50": 1692345,
-        "species": "Plasmodium vinckei",
         "speciesTaxonomyId": "5860",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Apicomplexa"
         ],
@@ -943,9 +926,8 @@
         "scaffoldCount": 14,
         "scaffoldL50": 5,
         "scaffoldN50": 2046250,
-        "species": "Plasmodium yoelii",
         "speciesTaxonomyId": "5861",
-        "strain": "17X",
+        "strainName": "17X",
         "taxonomicGroup": [
           "Apicomplexa"
         ],
@@ -956,7 +938,7 @@
         "taxonomicLevelOrder": "Haemosporida",
         "taxonomicLevelPhylum": "Apicomplexa",
         "taxonomicLevelSpecies": "Plasmodium yoelii",
-        "taxonomicLevelStrain": "None",
+        "taxonomicLevelStrain": "Plasmodium yoelii strain 17X",
         "taxonomicLevelSuperkingdom": "Eukaryota",
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_900002385.2"
       }
@@ -973,7 +955,7 @@
     "taxonomicLevelPhylum": "Apicomplexa",
     "taxonomicLevelSpecies": "Plasmodium yoelii",
     "taxonomicLevelStrain": [
-      "None"
+      "Plasmodium yoelii strain 17X"
     ],
     "taxonomicLevelSuperkingdom": "Eukaryota"
   },
@@ -998,9 +980,8 @@
         "scaffoldCount": 1,
         "scaffoldL50": 1,
         "scaffoldN50": 29903,
-        "species": "Severe acute respiratory syndrome-related coronavirus",
         "speciesTaxonomyId": "694009",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Viruses"
         ],
@@ -1054,9 +1035,8 @@
         "scaffoldCount": 8144,
         "scaffoldL50": 9,
         "scaffoldN50": 12309988,
-        "species": "Anopheles gambiae",
         "speciesTaxonomyId": "7165",
-        "strain": "PEST",
+        "strainName": "PEST",
         "taxonomicGroup": [
           "Insecta"
         ],
@@ -1086,9 +1066,8 @@
         "scaffoldCount": 190,
         "scaffoldL50": 2,
         "scaffoldN50": 99149756,
-        "species": "Anopheles gambiae",
         "speciesTaxonomyId": "7165",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Insecta"
         ],
@@ -1142,9 +1121,8 @@
         "scaffoldCount": 289,
         "scaffoldL50": 2,
         "scaffoldN50": 186194774,
-        "species": "Culex pipiens",
         "speciesTaxonomyId": "7175",
-        "strain": null,
+        "strainName": null,
         "taxonomicGroup": [
           "Insecta"
         ],
@@ -1197,9 +1175,8 @@
         "scaffoldCount": 56,
         "scaffoldL50": 2,
         "scaffoldN50": 201550677,
-        "species": "Culex quinquefasciatus",
         "speciesTaxonomyId": "7176",
-        "strain": "JHB",
+        "strainName": "JHB",
         "taxonomicGroup": [
           "Insecta"
         ],
@@ -1210,7 +1187,7 @@
         "taxonomicLevelOrder": "Diptera",
         "taxonomicLevelPhylum": "Arthropoda",
         "taxonomicLevelSpecies": "Culex quinquefasciatus",
-        "taxonomicLevelStrain": "None",
+        "taxonomicLevelStrain": "Culex quinquefasciatus strain JHB",
         "taxonomicLevelSuperkingdom": "Eukaryota",
         "ucscBrowserUrl": "https://genome.ucsc.edu/h/GCF_015732765.1"
       }
@@ -1227,7 +1204,7 @@
     "taxonomicLevelPhylum": "Arthropoda",
     "taxonomicLevelSpecies": "Culex quinquefasciatus",
     "taxonomicLevelStrain": [
-      "None"
+      "Culex quinquefasciatus strain JHB"
     ],
     "taxonomicLevelSuperkingdom": "Eukaryota"
   },
@@ -1252,9 +1229,8 @@
         "scaffoldCount": 8,
         "scaffoldL50": 4,
         "scaffoldN50": 3948441,
-        "species": "Aspergillus fumigatus",
         "speciesTaxonomyId": "746128",
-        "strain": "Af293",
+        "strainName": "Af293",
         "taxonomicGroup": [
           "Fungi"
         ],
