@@ -176,7 +176,9 @@ async function buildWorkflows(): Promise<WorkflowCategory[]> {
     );
 
   for (const sourceWorkflow of sourceWorkflows.workflows) {
-    buildWorkflow(workflowCategories, sourceWorkflow);
+    if (sourceWorkflow.active) {
+      buildWorkflow(workflowCategories, sourceWorkflow);
+    }
   }
 
   return workflowCategories;
