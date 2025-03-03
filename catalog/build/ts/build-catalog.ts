@@ -61,7 +61,9 @@ async function buildGenomes(): Promise<BRCDataCatalogGenome[]> {
       row.speciesTaxonomyId
     )?.ploidy;
     if (ploidy === undefined) {
-      console.log(`Skipping assembly ${row.accession} - ploidy not found`);
+      console.log(
+        `Skipping assembly ${row.accession} [tax_id: ${row.speciesTaxonomyId}] - ploidy not found`
+      );
       continue;
     }
     const taxonomicLevelStrain =
@@ -74,7 +76,7 @@ async function buildGenomes(): Promise<BRCDataCatalogGenome[]> {
       annotationStatus: parseStringOrNull(row.annotationStatus),
       chromosomes: parseNumberOrNull(row.chromosomeCount),
       coverage: parseStringOrNull(row.coverage),
-      gcPercent: parseNumber(row.gcPercent),
+      gcPercent: parseNumberOrNull(row.gcPercent),
       geneModelUrl: parseStringOrNull(row.geneModelUrl),
       isRef: parseBoolean(row.isRef),
       length: parseNumber(row.length),
