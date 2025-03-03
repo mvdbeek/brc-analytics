@@ -117,6 +117,8 @@ export interface Workflow {
     workflow_name: string,
     /** The description of the workflow. */
     workflow_description: string,
+    /** Determines if workflow should be included. */
+    active: boolean,
 }
 
 
