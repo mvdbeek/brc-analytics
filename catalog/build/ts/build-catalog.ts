@@ -188,6 +188,7 @@ function buildWorkflow(
   workflowCategories: WorkflowCategory[],
   {
     categories,
+    parameters: parameters,
     ploidy,
     taxonomy_id: taxonomyId,
     trs_id: trsId,
@@ -202,6 +203,7 @@ function buildWorkflow(
     if (!workflowCategory)
       throw new Error(`Unknown workflow category: ${category}`);
     workflowCategory.workflows.push({
+      parameters,
       ploidy,
       taxonomyId: typeof taxonomyId === "number" ? String(taxonomyId) : null,
       trsId,
