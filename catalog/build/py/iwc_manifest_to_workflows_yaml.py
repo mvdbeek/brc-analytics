@@ -108,7 +108,6 @@ def merge_into_existing():
             current_workflow_parameter_keys = {param.key for param in current_workflow_input.parameters}
             for param in existing_workflow_input.parameters:
                 if param.key not in current_workflow_parameter_keys:
-                    print(param.key, current_workflow_parameter_keys)
                     # Should be rare, but can happen.
                     raise Exception(
                         f"{param.key} specified but is not part of updated workflow {current_workflow_input.trs_id}! Review and fix manually"
