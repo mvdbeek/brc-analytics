@@ -184,6 +184,7 @@ def _id_to_gene_model_url(asm_id):
 
 
 def add_gene_model_url(genomes_df: pd.DataFrame):
+  print("Fetching gene model URLs")
   return pd.concat([genomes_df, genomes_df["accession"].apply(_id_to_gene_model_url).rename("geneModelUrl")], axis="columns")
 
 
