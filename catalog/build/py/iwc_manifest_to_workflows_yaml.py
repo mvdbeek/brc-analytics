@@ -17,6 +17,7 @@ DOCKSTORE_COLLECTION_TO_CATEGORY = {
     "Epigenetics": WorkflowCategoryId.REGULATION,
     "Genome assembly": WorkflowCategoryId.ASSEMBLY,
 }
+MANIFEST_SOURCE_OF_TRUTH = ("trs_id", "workflow_name", "categories", "workflow_description")
 
 
 def read_existing_yaml():
@@ -99,10 +100,12 @@ def merge_into_existing():
     for versionless_trs_id, current_workflow_input in current.items():
         existing_workflow_input = existing.get(versionless_trs_id)
         if existing_workflow_input:
-            # someone has annotated ploidy and parameters, keep these, but also check
-            # that existing parameters still exist
-            current_workflow_input.ploidy = existing_workflow_input.ploidy
-            current_workflow_input.active = existing_workflow_input.active
+            # we'll keep whatever has been specified in the brc repo,
+            # and only update values that are in the iwc manifest
+            exisiting_dict = existing_workflow_input.model_dump()
+            new_dict = current_workflow_input.model_dump()
+            for key in MANIFEST_SOURCE_OF_TRUTH:
+                exisiting_dict[key] = new_dict[key]
             # check that specified parameters still exist
             current_workflow_parameter_keys = {param.key for param in current_workflow_input.parameters}
             for param in existing_workflow_input.parameters:
@@ -111,8 +114,7 @@ def merge_into_existing():
                     raise Exception(
                         f"{param.key} specified but is not part of updated workflow {current_workflow_input.trs_id}! Review and fix manually"
                     )
-            # keep existing parameters
-            current_workflow_input.parameters = existing_workflow_input.parameters
+            current_workflow_input = Workflow(**exisiting_dict)
         merged[versionless_trs_id] = current_workflow_input
     return merged
 
