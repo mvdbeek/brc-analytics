@@ -63,14 +63,13 @@ the `# Anopheles gambiae` comment:
 Run
 
 ```shell
-python catalog/source/iwc_manifest_to_workflow_yaml.py --exclude-other
+npm run iwc-manifest-to-workflows-yaml
 npm run build-brc-db
 ```
 
 to fetch a list of current workflows from https://iwc.galaxyproject.org/workflow_manifest.json.
 Only workflows for currently enabled categories are fetched.
-If necessary, annotate parameters that require a reference genome id, fasta or gtf file with
-`{{ assembly_id }}`, `{{ assembly_fasta_url }}`, `{{ gene_model_url }}`.
+If necessary, update parameters that require a reference genome id, fasta or gtf file to include the variable slot, containing one of `ASSEMBLY_ID`, `ASSEMBLY_FASTA_URL`, or `GENE_MODEL_URL`.
 These values will be substituted with assembly-specific values at runtime.
 
 ## Editing the LinkML schemas
