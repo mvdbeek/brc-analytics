@@ -2,8 +2,7 @@ import argparse
 import json
 import os
 import subprocess
-from dataclasses import asdict, dataclass
-from typing import Any, Dict, List, Literal, Optional
+from typing import Dict
 
 import requests
 import yaml
