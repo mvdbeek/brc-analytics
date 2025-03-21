@@ -10,7 +10,7 @@ on:
 
 jobs:
   update-catalog:
-    if: github.repository == 'galaxyproject/brc-analytics'
+    # if: github.repository == 'galaxyproject/brc-analytics'
     permissions:
       contents: write
       pull-requests: write
