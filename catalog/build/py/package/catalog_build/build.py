@@ -3,6 +3,7 @@ import yaml
 import requests
 import urllib
 import time
+from functools import partial
 from bs4 import BeautifulSoup
 import logging
 
@@ -10,6 +11,21 @@ MAX_NCBI_URL_LENGTH = 2000 # The actual limit seems to be a bit over 4000
 
 log = logging.getLogger(__name__)
 
+
+def rate_limit_handler(request_call):
+  try:
+    response = request_call()
+    response.raise_for_status()
+    return response
+  except requests.HTTPError:
+    if response.status_code == 429:
+      retry_after = int(response.headers.get("Retry-After"))
+      print(f"Rate limited, waiting {retry_after} seconds")
+      time.sleep(retry_after)
+      response = request_call()
+      response.raise_for_status()
+      return response
+    raise
 
 def read_assemblies(assemblies_path):
   with open(assemblies_path) as stream:
@@ -23,7 +39,8 @@ def get_paginated_ncbi_results(base_url, query_description):
   while next_page_token or page == 1:
     print(f"Requesting page {page} of {query_description}")
     request_url = f"{base_url}?page_size=1000{"&page_token=" + next_page_token if next_page_token else ""}"
-    page_data = requests.get(request_url).json()
+    response = rate_limit_handler(partial(requests.get, request_url))
+    page_data = response.json()
     if len(page_data["reports"][0].get("errors", [])) > 0:
       raise Exception(page_data["reports"][0])
     results += page_data["reports"]
