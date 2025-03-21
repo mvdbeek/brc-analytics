@@ -176,10 +176,10 @@ def get_genomes_and_primarydata_df(accessions):
           pd.DataFrame(data=[get_biosample_data(info) for info in genomes_info if 'biosample' in info['assembly_info']]))
 
 
-def _id_to_gene_model_url(asm_id):
+def _id_to_gene_model_url(asm_id: str, session: requests.Session):
   ucsc_files_endpoint = "https://genome.ucsc.edu/list/files"
   download_base_url = "https://hgdownload.soe.ucsc.edu"
-  response = requests.get(ucsc_files_endpoint, params={"genome": asm_id})
+  response = session.get(ucsc_files_endpoint, params={"genome": asm_id})
   try:
     response.raise_for_status()
   except Exception:
@@ -202,7 +202,8 @@ def _id_to_gene_model_url(asm_id):
 
 def add_gene_model_url(genomes_df: pd.DataFrame):
   print("Fetching gene model URLs")
-  return pd.concat([genomes_df, genomes_df["accession"].apply(_id_to_gene_model_url).rename("geneModelUrl")], axis="columns")
+  session = requests.Session()
+  return pd.concat([genomes_df, genomes_df["accession"].apply(partial(_id_to_gene_model_url, session=session)).rename("geneModelUrl")], axis="columns")
 
 
 def report_missing_values_from(values_name, message_predicate, all_values_series, *partial_values_series):
