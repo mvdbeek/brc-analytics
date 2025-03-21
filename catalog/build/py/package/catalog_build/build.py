@@ -23,7 +23,9 @@ def get_paginated_ncbi_results(base_url, query_description):
   while next_page_token or page == 1:
     print(f"Requesting page {page} of {query_description}")
     request_url = f"{base_url}?page_size=1000{"&page_token=" + next_page_token if next_page_token else ""}"
-    page_data = requests.get(request_url).json()
+    response = requests.get(request_url)
+    response.raise_for_status()
+    page_data = response.json()
     if len(page_data["reports"][0].get("errors", [])) > 0:
       raise Exception(page_data["reports"][0])
     results += page_data["reports"]
