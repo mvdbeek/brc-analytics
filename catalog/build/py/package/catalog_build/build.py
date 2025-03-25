@@ -353,9 +353,9 @@ def _id_to_gene_model_url(asm_id: str, session: requests.Session):
   gtf_urls = [entry["url"] for entry in files["urlList"] if entry["url"].endswith(".gtf.gz")]
   augustus_url = None
   for url in gtf_urls:
-    if "ncbiRefSeq" in url:
+    if "ncbiGene" in url:
       return urllib.parse.urljoin(f"{download_base_url}/", url)
-    elif "ncbiGene" in url:
+    elif "ncbiRefSeq" in url:
       return urllib.parse.urljoin(f"{download_base_url}/", url)
     elif "augustus" in url:
       augustus_url = url
