@@ -481,6 +481,7 @@ function getRunUrlsInfo(
 
 function ftpToAscp(ftpUrl: string): string {
   // should be more reliable than FTP download
+  if (ftpUrl.startsWith("ascp://")) return ftpUrl;
   return `ascp://${ftpUrl.replace(FTP_HOST, ASCP_HOST)}`;
 }
 
